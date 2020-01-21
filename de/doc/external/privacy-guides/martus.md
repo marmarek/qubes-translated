@@ -1,9 +1,10 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/martus/
+permalink: /de/doc/martus/
 ref: 195
 title: Martus
+translated: 'yes'
 ---
 
 Martus

@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/templates/debian/
+permalink: /es/doc/templates/debian/
 redirect_from:
-- /doc/debian/
-- /en/doc/templates/debian/
-- /doc/Templates/Debian/
-- /wiki/Templates/Debian/
+- /es/doc/debian/
+- /es/doc/templates/debian/
+- /es/doc/Templates/Debian/
+- /es/wiki/Templates/Debian/
 ref: 58
 title: The Debian TemplateVM
+translated: 'yes'
 ---
 
 # The Debian TemplateVM
@@ -113,16 +114,16 @@ One solution is to add a dummy interface to allow the package to install correct
     ip link set d0 up
 
 
-[TemplateVM]: /doc/templates/
-[Minimal TemplateVMs]: /doc/templates/minimal/
+[TemplateVM]: /es/doc/templates/
+[Minimal TemplateVMs]: /es/doc/templates/minimal/
 [Qubes page on the Debian Wiki]: https://wiki.debian.org/Qubes
 [end-of-life]: https://wiki.debian.org/DebianReleases#Production_Releases
-[supported]: /doc/supported-versions/#templatevms
-[How to Reinstall a TemplateVM]: /doc/reinstall-template/
-[Update the TemplateVM]: /doc/software-update-vm/
-[switch]: /doc/templates/#switching
-[uninstall the old TemplateVM]: /doc/templates/#uninstalling
-[Updating software in TemplateVMs]: /doc/software-update-domu/#updating-software-in-templatevms
-[Upgrading Debian TemplateVMs]: /doc/template/debian/upgrade/
+[supported]: /es/doc/supported-versions/#templatevms
+[How to Reinstall a TemplateVM]: /es/doc/reinstall-template/
+[Update the TemplateVM]: /es/doc/software-update-vm/
+[switch]: /es/doc/templates/#switching
+[uninstall the old TemplateVM]: /es/doc/templates/#uninstalling
+[Updating software in TemplateVMs]: /es/doc/software-update-domu/#updating-software-in-templatevms
+[Upgrading Debian TemplateVMs]: /es/doc/template/debian/upgrade/
 [5149]: https://github.com/QubesOS/qubes-issues/issues/5149
-[install]: /doc/templates/#installing
+[install]: /es/doc/templates/#installing

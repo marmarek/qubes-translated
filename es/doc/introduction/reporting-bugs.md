@@ -1,18 +1,19 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/reporting-bugs/
+permalink: /es/doc/reporting-bugs/
 redirect_from:
-- /en/doc/reporting-bugs/
-- /doc/BugReportingGuide/
-- /wiki/BugReportingGuide/
-- /reporting-bugs/
-- /bug/
-- /bugs/
-- /bug-report/
-- /bug-reports/
+- /es/doc/reporting-bugs/
+- /es/doc/BugReportingGuide/
+- /es/wiki/BugReportingGuide/
+- /es/reporting-bugs/
+- /es/bug/
+- /es/bugs/
+- /es/bug-report/
+- /es/bug-reports/
 ref: 12
 title: Reporting bugs and other issues
+translated: 'yes'
 ---
 
 # Reporting bugs and other issues #
@@ -132,17 +133,17 @@ If the issue is closed without one of these specific resolutions, then it means,
 [manager/widget]: https://github.com/QubesOS/qubes-issues/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22C%3A+manager%2Fwidget%22+
 [Xen]: https://github.com/QubesOS/qubes-issues/issues?q=is%3Aopen+is%3Aissue+label%3A%22C%3A+Xen%22
 [major]: https://github.com/QubesOS/qubes-issues/labels/P%3A%20major
-[Seguridad]: /security/
-[documentation]: /doc/
-[página web]: /
+[Seguridad]: /es/security/
+[documentation]: /es/doc/
+[página web]: /es/
 [qubes-issues]: https://github.com/QubesOS/qubes-issues/issues
-[Help, Support, and Mailing Lists]: /support/
-[qubes-users]: /support/#qubes-users
-[qubes-devel]: /support/#qubes-devel
+[Help, Support, and Mailing Lists]: /es/support/
+[qubes-users]: /es/support/#qubes-users
+[qubes-devel]: /es/support/#qubes-devel
 [updates-status]: https://github.com/QubesOS/updates-status/issues
-[how to copy information out of dom0]: /doc/copy-from-dom0/
-[testing]: /doc/testing/
-[How to Contribute]: /doc/contributing/
-[Contributing Code]: /doc/contributing/#contributing-code
-[Package Contributions]: /doc/package-contributions/
-[Documentation Guidelines]: /doc/doc-guidelines/
+[how to copy information out of dom0]: /es/doc/copy-from-dom0/
+[testing]: /es/doc/testing/
+[How to Contribute]: /es/doc/contributing/
+[Contributing Code]: /es/doc/contributing/#contributing-code
+[Package Contributions]: /es/doc/package-contributions/
+[Documentation Guidelines]: /es/doc/doc-guidelines/

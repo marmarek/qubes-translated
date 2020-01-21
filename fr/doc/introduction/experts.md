@@ -1,9 +1,10 @@
 ---
 lang: fr
 layout: accueil
-permalink: /experts/
+permalink: /fr/experts/
 ref: 16
 title: Experts
+translated: 'yes'
 ---
 
 <div class="home-content container">

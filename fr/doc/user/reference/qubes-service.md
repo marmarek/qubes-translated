@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/qubes-service/
+permalink: /fr/doc/qubes-service/
 redirect_from:
-- /en/doc/qubes-service/
-- /doc/QubesService/
-- /wiki/QubesService/
+- /fr/doc/qubes-service/
+- /fr/doc/QubesService/
+- /fr/wiki/QubesService/
 ref: 82
 title: Qubes Service
+translated: 'yes'
 ---
 
 Usage documentation is on `qvm-service` man page. There are also described predefined services.

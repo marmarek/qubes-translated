@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/devel-books/
+permalink: /es/doc/devel-books/
 redirect_from:
-- /en/doc/devel-books/
-- /doc/DevelBooks/
-- /wiki/DevelBooks/
+- /es/doc/devel-books/
+- /es/doc/DevelBooks/
+- /es/wiki/DevelBooks/
 ref: 128
 title: Developer Books
+translated: 'yes'
 ---
 
 Debajo tiene una lista de varios libros que podrían ser útiles en el aprendizaje de algunos fundamentos necesarios para el desarrollo de Qubes.
@@ -28,4 +29,4 @@ Debajo tiene una lista de varios libros que podrían ser útiles en el aprendiza
 - Useful books about Python:
   * _[Programming in Python 3](http://www.qtrac.eu/py3book.html)_, by Mark Summerfield
   * _[Rapid GUI Programming with Python and Qt](http://www.qtrac.eu/pyqtbook.html)_, by Mark Summerfield
-    (Although note that [Qt is being replaced by GTK](/doc/usability-ux/#gnome-kde-and-xfce) in Qubes code.)
+    (Although note that [Qt is being replaced by GTK](/es/doc/usability-ux/#gnome-kde-and-xfce) in Qubes code.)

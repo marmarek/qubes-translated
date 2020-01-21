@@ -1,14 +1,15 @@
 ---
 lang: de
 layout: Standard
-permalink: /research/
+permalink: /de/research/
 redirect_from:
-- /doc/qubes-research/
-- /en/doc/qubes-research/
-- /doc/QubesResearch/
-- /wiki/QubesResearch/
+- /de/doc/qubes-research/
+- /de/doc/qubes-research/
+- /de/doc/QubesResearch/
+- /de/wiki/QubesResearch/
 ref: 84
 title: Forschung
+translated: 'yes'
 ---
 
 Here are links to various research papers, projects, and blog posts that relate

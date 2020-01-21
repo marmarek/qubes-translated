@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/device-handling-security/
+permalink: /es/doc/device-handling-security/
 ref: 29
 title: Device Handling Security
+translated: 'yes'
 ---
 
 # Device Handling Security #
@@ -81,8 +82,8 @@ Support for [two factor authentication][qubes u2f proxy] was recently added, tho
 
 [USB security]:https://blog.invisiblethings.org/2011/05/31/usb-security-challenges.html "ITL blog post on USB security"
 [rubber duck]: https://shop.hak5.org/products/usb-rubber-ducky-deluxe
-[USB qube]: /doc/usb-qubes/
-[YubiKey]: /doc/YubiKey/
+[USB qube]: /es/doc/usb-qubes/
+[YubiKey]: /es/doc/YubiKey/
 [qubes u2f proxy]: https://www.qubes-os.org/news/2018/09/11/qubes-u2f-proxy/
 [4661]: https://github.com/QubesOS/qubes-issues/issues/4661
 [side channel attack]: https://en.wikipedia.org/wiki/Side-channel_attack

@@ -1,12 +1,13 @@
 ---
 lang: fr
 layout: valeur par défaut
-permalink: /partners/
+permalink: /fr/partners/
 redirect_from:
-- /en/partners/
-- /funding/
+- /fr/partners/
+- /fr/funding/
 ref: 2
 title: Qubes Partners
+translated: 'yes'
 ---
 
 Our Partners
@@ -131,7 +132,7 @@ We are grateful for their support!
         The user is not jeopardized by installing additional applications or personalizing the desktop.
         Whonix is under active development and is the only operating system designed to be run inside a VM and paired with Tor.
         The developers of Qubes and Whonix are cooperating.
-        While Whonix is an independent Linux distribution, it has been integrated into Qubes OS as a system called <a href="/doc/whonix/">Qubes-Whonix</a>.</p>
+        While Whonix is an independent Linux distribution, it has been integrated into Qubes OS as a system called <a href="/fr/doc/whonix/">Qubes-Whonix</a>.</p>
       </td>
     </tr>
     <tr id="open-technology-fund">

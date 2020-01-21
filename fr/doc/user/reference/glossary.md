@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/glossary/
+permalink: /fr/doc/glossary/
 redirect_from:
-- /en/doc/glossary/
-- /doc/Glossary/
-- /wiki/Glossary/
+- /fr/doc/glossary/
+- /fr/doc/Glossary/
+- /fr/wiki/Glossary/
 ref: 83
 title: Glossaire
+translated: 'yes'
 ---
 
 Glossary of Qubes Terminology
@@ -40,7 +41,7 @@ Domain
 ------
 An area or set of activities in one's digital life that has certain security requirements and therefore involves the use of certain [qubes](#qube). 
 For example, suppose your "email" domain encompasses the activity of sending PGP-encrypted email. 
-This domain may include your email qube and your [Split GPG](/doc/split-gpg) qube. 
+This domain may include your email qube and your [Split GPG](/fr/doc/split-gpg) qube. 
 Note that domains and qubes are not the same thing.
 In this example, your "email" domain includes the use of two qubes. 
 Furthermore, a qube can fall under multiple domains simultaneously. 
@@ -63,7 +64,7 @@ By default, most domUs lack direct hardware access.
 
 TemplateVM
 ----------
-[Template Virtual Machine](/doc/templates/).
+[Template Virtual Machine](/fr/doc/templates/).
 Any [VM](#vm) that supplies its root filesystem to another VM. 
 TemplateVMs are intended for installing and updating software applications, but not for running them.
 
@@ -78,7 +79,7 @@ Any [VM](#vm) that depends on a [TemplateVM](#templatevm) for its root filesyste
 
 Standalone(VM)
 --------------
-[Standalone (Virtual Machine)](/doc/standalone-and-hvm/).
+[Standalone (Virtual Machine)](/fr/doc/standalone-and-hvm/).
 In general terms, a [VM](#vm) is described as **standalone** if and only if it does not depend on any other VM for its root filesystem. 
 (In other words, a VM is standalone if and only if it is not a TemplateBasedVM.) 
 More specifically, a **StandaloneVM** is a type of VM in Qubes that is created by cloning a TemplateVM. 
@@ -116,7 +117,7 @@ A FirewallVM called `sys-firewall` is created by default in most Qubes installat
 
 DisposableVM
 ------------
-[Disposable Virtual Machine](/doc/disposablevm/).
+[Disposable Virtual Machine](/fr/doc/disposablevm/).
 A temporary [AppVM](#appvm) based on a [DisposableVM Template](#disposablevm-template) that can quickly be created, used, and destroyed.
 
 DispVM
@@ -137,7 +138,7 @@ Rather, DisposableVM Templates are complementary to TemplateVMs insofar as Dispo
 There are two main kinds of DisposableVM Templates:
 
  * **Dedicated** DisposableVM Templates are intended neither for installing nor running software.
-   Rather, they are intended for *customizing* or *configuring* software that has already been installed on the TemplateVM on which the DisposableVM Template is based (see [DisposableVM Customization](/doc/disposablevm-customization/).
+   Rather, they are intended for *customizing* or *configuring* software that has already been installed on the TemplateVM on which the DisposableVM Template is based (see [DisposableVM Customization](/fr/doc/disposablevm-customization/).
    This software is then intended to be run (in its customized state) in DisposableVMs that are based on the DisposableVM Template.
  * **Non-dedicated** DisposableVM Templates are typically [AppVMs](#appvm) on which DisposableVMs are based.
    For example, an AppVM could be used to generate and store trusted data.
@@ -152,7 +153,7 @@ However, paravirtualized VMs require a PV-enabled kernel and PV drivers, so the 
 
 HVM
 ---
-[Hardware-assisted Virtual Machine](/doc/standalone-and-hvm/).
+[Hardware-assisted Virtual Machine](/fr/doc/standalone-and-hvm/).
 Any fully virtualized, or hardware-assisted, [VM](#vm) utilizing the virtualization extensions of the host CPU. 
 Although HVMs are typically slower than paravirtualized VMs due to the required emulation, HVMs allow the user to create domains based on any operating system.
 

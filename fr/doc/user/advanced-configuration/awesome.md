@@ -1,12 +1,13 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/awesome/
+permalink: /fr/doc/awesome/
 redirect_from:
-- /en/doc/awesome/
-- /doc/awesome/
+- /fr/doc/awesome/
+- /fr/doc/awesome/
 ref: 98
 title: awesome
+translated: 'yes'
 ---
 
 # Using awesome in dom0
@@ -27,7 +28,7 @@ That's it. After logging out, you can select awesome in the login manager.
 
 ## Développement
 
-To [contribute code](/doc/contributing/) you may clone the awesome repository as follows:
+To [contribute code](/fr/doc/contributing/) you may clone the awesome repository as follows:
 
     $ git clone https://github.com/QubesOS/qubes-desktop-linux-awesome
 

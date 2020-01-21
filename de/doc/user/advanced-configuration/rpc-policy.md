@@ -1,9 +1,10 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/rpc-policy/
+permalink: /de/doc/rpc-policy/
 ref: 91
 title: RPC Policies
+translated: 'yes'
 ---
 
 RPC Policies
@@ -59,4 +60,4 @@ Further details about how this system works can be found in [Qrexec: command exe
 (***Note**: the `$` character is deprecated in qrexec keywords -- please use `@` instead (e.g. `@anyvm`).
 For more information, see the bulletin [here](https://github.com/QubesOS/qubes-secpack/blob/master/QSBs/qsb-038-2018.txt).*)
 
-[qrexec3]: /doc/qrexec3/
+[qrexec3]: /de/doc/qrexec3/

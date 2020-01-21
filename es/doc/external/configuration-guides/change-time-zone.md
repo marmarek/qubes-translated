@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/change-time-zone/
+permalink: /es/doc/change-time-zone/
 ref: 202
 title: Changing your Time Zone
+translated: 'yes'
 ---
 
 # Changing your Time Zone #

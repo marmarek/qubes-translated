@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc-full
-permalink: /doc/admin-api/
+permalink: /es/doc/admin-api/
 redirect_from:
-- /doc/mgmt/
-- /doc/mgmt1/
-- /doc/mgmt-architecture/
-- /doc/admin-api-architecture/
+- /es/doc/mgmt/
+- /es/doc/mgmt1/
+- /es/doc/mgmt-architecture/
+- /es/doc/admin-api-architecture/
 ref: 144
 title: Admin API
+translated: 'yes'
 ---
 
 # Qubes OS Admin API
@@ -101,7 +102,7 @@ to set the policy using current mechanism.
 | `admin.vm.tag.Get`                     | vm        | tag       | -                                         | `0` or `1`                                                | retcode? |
 | `admin.vm.tag.Remove`                  | vm        | tag       | -                                         | -                                                         |
 | `admin.vm.tag.Set`                     | vm        | tag       | -                                         | -                                                         |
-| `admin.vm.firewall.Get`                | vm        | -         | -                                         | `<rule>\n`                                                | rules syntax as in [firewall interface](/doc/vm-interface/#firewall-rules-in-4x) with addition of `expire=` and `comment=` options; `comment=` (if present) must be the last option
+| `admin.vm.firewall.Get`                | vm        | -         | -                                         | `<rule>\n`                                                | rules syntax as in [firewall interface](/es/doc/vm-interface/#firewall-rules-in-4x) with addition of `expire=` and `comment=` options; `comment=` (if present) must be the last option
 | `admin.vm.firewall.Set`                | vm        | -         | `<rule>\n`                                | -                                                         | set firewall rules, see `admin.vm.firewall.Get` for syntax
 | `admin.vm.firewall.Reload`             | vm        | -         | -                                         | -                                                         | force reload firewall without changing any rule
 | `admin.vm.device.<class>.Attach`       | vm        | dispositivo    | options                                   | -                                                         | `device` is in form `<backend-name>+<device-ident>` <br/>optional options given in `key=value` format, separated with spaces; <br/>options can include `persistent=True` to "persistently" attach the device (default is temporary)

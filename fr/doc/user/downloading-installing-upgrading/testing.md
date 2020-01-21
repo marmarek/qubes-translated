@@ -1,9 +1,10 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/testing/
+permalink: /fr/doc/testing/
 ref: 38
 title: Testing New Releases and Updates
+translated: 'yes'
 ---
 
 Testing New Releases and Updates
@@ -53,13 +54,13 @@ Even a simple <span class="fa fa-thumbs-up" title="Thumbs Up"></span> or <span c
 If you [report a bug] in a package that is in a testing repository, please reference the appropriate issue in [updates-status].
 
 
-[contribuer]: /doc/contributing/
-[qubes-builder]: /doc/qubes-builder/
-[Version Scheme]: /doc/version-scheme/
-[Release Checklist]: /doc/releases/todo/
-[dom0 testing repositories]: /doc/software-update-dom0/#testing-repositories
-[TemplateVM testing repositories]: /doc/software-update-domu/#testing-repositories
+[contribuer]: /fr/doc/contributing/
+[qubes-builder]: /fr/doc/qubes-builder/
+[Version Scheme]: /fr/doc/version-scheme/
+[Release Checklist]: /fr/doc/releases/todo/
+[dom0 testing repositories]: /fr/doc/software-update-dom0/#testing-repositories
+[TemplateVM testing repositories]: /fr/doc/software-update-domu/#testing-repositories
 [automated build process]: https://github.com/QubesOS/qubes-infrastructure/blob/master/README.md
 [updates-status]: https://github.com/QubesOS/updates-status/issues
-[report a bug]: /doc/reporting-bugs/
+[report a bug]: /fr/doc/reporting-bugs/
 [Providing Feedback]: #providing-feedback

@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/contributing/
+permalink: /es/doc/contributing/
 redirect_from:
-- /en/doc/contributing/
-- /doc/ContributingHowto/
-- /wiki/ContributingHowto/
+- /es/doc/contributing/
+- /es/doc/ContributingHowto/
+- /es/wiki/ContributingHowto/
 ref: 21
 title: Contributing to the Qubes OS Project
+translated: 'yes'
 ---
 
 How to Contribute to the Qubes OS Project
@@ -60,24 +61,24 @@ details, we'll add you to our [Community-Developed Feature Tracker]. We'll then
 be grateful to [receive your patch][patch].
 
 
-[código fuente]: /doc/source-code/
-[Report security issues]: /security/
-[patch]: /doc/source-code/#how-to-send-patches
-[Contribute packages]: /doc/package-contributions
-[Report bugs]: /doc/reporting-bugs/
-[Test new releases and updates]: /doc/testing/
-[HCL reports]: /doc/hcl/
-[video tours]: /video-tours/
+[código fuente]: /es/doc/source-code/
+[Report security issues]: /es/security/
+[patch]: /es/doc/source-code/#how-to-send-patches
+[Contribute packages]: /es/doc/package-contributions
+[Report bugs]: /es/doc/reporting-bugs/
+[Test new releases and updates]: /es/doc/testing/
+[HCL reports]: /es/doc/hcl/
+[video tours]: /es/video-tours/
 [artwork]: https://github.com/QubesOS/qubes-artwork
-[Write and edit the documentation]: /doc/doc-guidelines
-[mailing lists]: /support/
-[Donar]: /donate/
-[Qubes partner]: /partners/
+[Write and edit the documentation]: /es/doc/doc-guidelines
+[mailing lists]: /es/support/
+[Donar]: /es/donate/
+[Qubes partner]: /es/partners/
 [Twitter]: https://twitter.com/QubesOS
 [Reddit]: https://www.reddit.com/r/Qubes/
 [Facebook]: https://www.facebook.com/QubesOS
 [LinkedIn]: https://www.linkedin.com/company/qubes-os/
 [GitHub issues]: https://github.com/QubesOS/qubes-issues/issues
-[qubes-devel]: /support/#qubes-devel
+[qubes-devel]: /es/support/#qubes-devel
 [Community-Developed Feature Tracker]: /qubes-issues/
-[Qubes download mirror]: /downloads/mirrors/
+[Qubes download mirror]: /es/downloads/mirrors/

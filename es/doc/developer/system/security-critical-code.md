@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/security-critical-code/
+permalink: /es/doc/security-critical-code/
 redirect_from:
-- /en/doc/security-critical-code/
-- /doc/SecurityCriticalCode/
-- /wiki/SecurityCriticalCode/
-- /trac/wiki/SecurityCriticalCode/
+- /es/doc/security-critical-code/
+- /es/doc/SecurityCriticalCode/
+- /es/wiki/SecurityCriticalCode/
+- /es/trac/wiki/SecurityCriticalCode/
 ref: 120
 title: Security-critical Code
+translated: 'yes'
 ---
 
 Security-critical Code in Qubes OS
@@ -77,6 +78,6 @@ In practice, we trust the software provided by the [Fedora Project].
 This software is signed by Fedora distribution keys, so it is also critical that the tools used in domains for software updates (`dnf` and `rpm`) are trustworthy.
 
 
-[Qubes Security Goals]: /security/goals/
+[Qubes Security Goals]: /es/security/goals/
 [Fedora Project]: https://getfedora.org/
-[Comprender y evitar las filtraciones de datos]: /doc/data-leaks/
+[Comprender y evitar las filtraciones de datos]: /es/doc/data-leaks/

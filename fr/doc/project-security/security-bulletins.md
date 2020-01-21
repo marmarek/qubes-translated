@@ -1,21 +1,22 @@
 ---
 lang: fr
 layout: doc
-permalink: /security/bulletins/
+permalink: /fr/security/bulletins/
 redirect_from:
-- /doc/security-bulletins/
-- /en/doc/security-bulletins/
-- /doc/SecurityBulletins/
-- /wiki/SecurityBulletins/
-- /trac/wiki/SecurityBulletins/
+- /fr/doc/security-bulletins/
+- /fr/doc/security-bulletins/
+- /fr/doc/SecurityBulletins/
+- /fr/wiki/SecurityBulletins/
+- /fr/trac/wiki/SecurityBulletins/
 ref: 156
 title: Qubes Security Bulletins
+translated: 'yes'
 ---
 
 Qubes Security Bulletins (QSBs)
 ===============================
 
-Qubes Security Bulletins (QSBs) are published through the [Qubes Security Pack](/security/pack/).
+Qubes Security Bulletins (QSBs) are published through the [Qubes Security Pack](/fr/security/pack/).
 
 <table>
   <tr>

@@ -1,12 +1,13 @@
 ---
 lang: es
 layout: boxless
-permalink: /downloads/
+permalink: /es/downloads/
 redirect_from:
-- /doc/QubesDownloads/
-- /wiki/QubesDownloads/
+- /es/doc/QubesDownloads/
+- /es/wiki/QubesDownloads/
 ref: 8
 title: Download Qubes OS
+translated: 'yes'
 ---
 
 <div class="white-box more-bottom page-content">
@@ -14,25 +15,25 @@ title: Download Qubes OS
     <div class="col-lg-4 col-md-4">
       <h3>Choosing Your Hardware</h3>
       <ul class="list-unstyled">
-        <li><a href="/doc/system-requirements/"><i class="fa fa-server fa-fw black-icon"></i> System Requirements</a></li>
-        <li><a href="/doc/certified-hardware/"><i class="fa fa-floppy-o fa-fw black-icon"></i> Certified Hardware</a></li>
-        <li><a href="/hcl/"><i class="fa fa-laptop fa-fw black-icon"></i> Hardware Compatibility List</a></li>
+        <li><a href="/es/doc/system-requirements/"><i class="fa fa-server fa-fw black-icon"></i> System Requirements</a></li>
+        <li><a href="/es/doc/certified-hardware/"><i class="fa fa-floppy-o fa-fw black-icon"></i> Certified Hardware</a></li>
+        <li><a href="/es/hcl/"><i class="fa fa-laptop fa-fw black-icon"></i> Hardware Compatibility List</a></li>
       </ul>
     </div>
     <div class="col-lg-4 col-md-4">
       <h3>Installing Qubes Securely</h3>
       <ul class="list-unstyled">
-        <li><a href="/doc/installation-guide/"><i class="fa fa-book fa-fw black-icon"></i> Installation Guide</a></li>
-        <li><a href="/security/verifying-signatures/"><i class="fa fa-lock fa-fw black-icon"></i> How and Why to Verify Signatures</a></li>
-        <li><a href="/doc/install-security/"><i class="fa fa-lightbulb-o fa-fw black-icon"></i> Installation Security Considerations</a></li>
+        <li><a href="/es/doc/installation-guide/"><i class="fa fa-book fa-fw black-icon"></i> Installation Guide</a></li>
+        <li><a href="/es/security/verifying-signatures/"><i class="fa fa-lock fa-fw black-icon"></i> How and Why to Verify Signatures</a></li>
+        <li><a href="/es/doc/install-security/"><i class="fa fa-lightbulb-o fa-fw black-icon"></i> Installation Security Considerations</a></li>
       </ul>
     </div>
     <div class="col-lg-4 col-md-4">
       <h3>Help and Support</h3>
       <ul class="list-unstyled">
-        <li><a href="/support/"><i class="fa fa-life-ring fa-fw black-icon"></i> Help and Support</a></li>
-        <li><a href="/doc/#troubleshooting"><i class="fa fa-file-text-o fa-fw black-icon"></i> Troubleshooting Guides</a></li>
-        <li><a href="/doc/reporting-bugs/"><i class="fa fa-bug fa-fw black-icon"></i> Report a Bug</a></li>
+        <li><a href="/es/support/"><i class="fa fa-life-ring fa-fw black-icon"></i> Help and Support</a></li>
+        <li><a href="/es/doc/#troubleshooting"><i class="fa fa-file-text-o fa-fw black-icon"></i> Troubleshooting Guides</a></li>
+        <li><a href="/es/doc/reporting-bugs/"><i class="fa fa-bug fa-fw black-icon"></i> Report a Bug</a></li>
       </ul>
     </div>
   </div>
@@ -43,7 +44,7 @@ title: Download Qubes OS
       <p>As a free and open-source software project, we rely on donations from users like you in order to keep running.
       Your contributions directly support the developers who work hard every day to improve your security.
       Please consider making a donation today.</p>
-      <a class="btn btn-lg btn-primary" href="/donate/">Donate</a>
+      <a class="btn btn-lg btn-primary" href="/es/donate/">Donate</a>
     </div>
   </div>
 </div>
@@ -60,7 +61,7 @@ title: Download Qubes OS
       <h3 class="more-bottom" id="{{ release_name | slugify }}">{{ release_name }}</h3>
       {% if testing %}
       <div class="alert alert-info" role="alert">
-        <i class="fa fa-question-circle"></i>{% if testing != true %} {{ testing }}{% else %} This is a <a href="/doc/testing/">testing release</a>. Please help us improve it by <a href="/doc/reporting-bugs/">reporting any bugs you encounter</a>. For important work, we recommend the latest stable release.{% endif %}
+        <i class="fa fa-question-circle"></i>{% if testing != true %} {{ testing }}{% else %} This is a <a href="/es/doc/testing/">testing release</a>. Please help us improve it by <a href="/es/doc/reporting-bugs/">reporting any bugs you encounter</a>. For important work, we recommend the latest stable release.{% endif %}
       </div>
       {% endif %}
       {% if latest %}
@@ -70,12 +71,12 @@ title: Download Qubes OS
       {% endif %}
       {% if aging %}
       <div class="alert alert-warning" role="alert">
-        <i class="fa fa-info-circle"></i>{% if aging != true %} {{ aging }}{% else %} This is an old, <a href="/doc/supported-versions/">supported</a> release. For the best Qubes OS experience, we suggest upgrading to the latest stable release.{% endif %}
+        <i class="fa fa-info-circle"></i>{% if aging != true %} {{ aging }}{% else %} This is an old, <a href="/es/doc/supported-versions/">supported</a> release. For the best Qubes OS experience, we suggest upgrading to the latest stable release.{% endif %}
       </div>
       {% endif %}
       {% if deprecated %}
       <div class="alert alert-danger" role="alert">
-        <i class="fa fa-exclamation-circle"></i>{% if deprecated != true %} {{ deprecated }}{% else %} This is an old, <a href="/doc/supported-versions/">unsupported</a> release. We strongly recommend upgrading to a supported release in order to receive the latest security updates.{% endif %}
+        <i class="fa fa-exclamation-circle"></i>{% if deprecated != true %} {{ deprecated }}{% else %} This is an old, <a href="/es/doc/supported-versions/">unsupported</a> release. We strongly recommend upgrading to a supported release in order to receive the latest security updates.{% endif %}
       </div>
       {% endif %}
       <table class="table">
@@ -83,7 +84,7 @@ title: Download Qubes OS
           <tr>
             <th>Download</th>
             <th>Verify
-              <a class="fa fa-question-circle" href="/security/verifying-signatures/"
+              <a class="fa fa-question-circle" href="/es/security/verifying-signatures/"
                  title="How do I verify my download?"></a></th>
             <th>File</th>
             <th>Size</th>
@@ -177,7 +178,7 @@ title: Download Qubes OS
           </tr>
         {% endfor %}
         </table>
-        <a href="/downloads/mirrors/#instructions-for-mirror-operators"><i class="fa fa-cloud fa-fw black-icon"></i> How to contribute a download mirror</a>
+        <a href="/es/downloads/mirrors/#instructions-for-mirror-operators"><i class="fa fa-cloud fa-fw black-icon"></i> How to contribute a download mirror</a>
       </article>
     </div>
   </div>
@@ -187,9 +188,9 @@ title: Download Qubes OS
     <div class="white-box more-bottom page-content">
       <h3 id="versions">Security Information</h3>
       <ul class="list-unstyled">
-        <li><a href="/security/"><i class="fa fa-lock fa-fw black-icon"></i> Security Center</a></li>
-        <li><a href="/security/pack/"><i class="fa fa-folder fa-fw black-icon"></i> Security Pack</a></li>
-        <li><a href="/doc/security-guidelines/"><i class="fa fa-tasks fa-fw black-icon"></i> Security Guidelines</a></li>
+        <li><a href="/es/security/"><i class="fa fa-lock fa-fw black-icon"></i> Security Center</a></li>
+        <li><a href="/es/security/pack/"><i class="fa fa-folder fa-fw black-icon"></i> Security Pack</a></li>
+        <li><a href="/es/doc/security-guidelines/"><i class="fa fa-tasks fa-fw black-icon"></i> Security Guidelines</a></li>
       </ul>
     </div>
   </div>
@@ -197,9 +198,9 @@ title: Download Qubes OS
     <div class="white-box more-bottom page-content">
       <h3 id="versions">Version Information</h3>
       <ul class="list-unstyled">
-        <li><a href="/doc/supported-versions/"><i class="fa fa-history fa-fw black-icon"></i> Supported Versions</a></li>
-        <li><a href="/doc/templates/"><i class="fa fa-clone fa-fw black-icon"></i> Templates</a></li>
-        <li><a href="/doc/version-scheme/"><i class="fa fa-code-fork fa-fw black-icon"></i> Version Scheme</a></li>
+        <li><a href="/es/doc/supported-versions/"><i class="fa fa-history fa-fw black-icon"></i> Supported Versions</a></li>
+        <li><a href="/es/doc/templates/"><i class="fa fa-clone fa-fw black-icon"></i> Templates</a></li>
+        <li><a href="/es/doc/version-scheme/"><i class="fa fa-code-fork fa-fw black-icon"></i> Version Scheme</a></li>
       </ul>
     </div>
   </div>
@@ -207,9 +208,9 @@ title: Download Qubes OS
     <div class="white-box more-bottom page-content">
       <h3 id="source-code">Source Code</h3>
       <ul class="list-unstyled">
-        <li><a href="/doc/source-code/"><i class="fa fa-code fa-fw black-icon"></i> Source Code</a></li>
-        <li><a href="/doc/coding-style/"><i class="fa fa-terminal fa-fw black-icon"></i> Coding Guidelines</a></li>
-        <li><a href="/doc/license/"><i class="fa fa-file-text-o fa-fw black-icon"></i> Software License</a></li>
+        <li><a href="/es/doc/source-code/"><i class="fa fa-code fa-fw black-icon"></i> Source Code</a></li>
+        <li><a href="/es/doc/coding-style/"><i class="fa fa-terminal fa-fw black-icon"></i> Coding Guidelines</a></li>
+        <li><a href="/es/doc/license/"><i class="fa fa-file-text-o fa-fw black-icon"></i> Software License</a></li>
       </ul>
     </div>
   </div>

@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/certified-hardware/
+permalink: /fr/doc/certified-hardware/
 redirect_from:
-- /doc/hardware/
-- /doc/certified-laptops/
-- /hardware-certification/
+- /fr/doc/hardware/
+- /fr/doc/certified-laptops/
+- /fr/hardware-certification/
 ref: 34
 title: Certified Hardware
+translated: 'yes'
 ---
 
 # Certified Hardware
@@ -89,12 +90,12 @@ While we are willing to troubleshoot simple issues, we will need to charge a con
 If you are interested in having your hardware certified, please [contact us].
 
 
-[Hardware Testing]: /doc/hardware-testing/
+[Hardware Testing]: /fr/doc/hardware-testing/
 [stateless laptop]: https://blog.invisiblethings.org/2015/12/23/state_harmful.html
-[Configuration exigée]: /doc/system-requirements/
-[Hardware Compatibility List]: /hcl/
+[Configuration exigée]: /fr/doc/system-requirements/
+[Hardware Compatibility List]: /fr/hcl/
 [Hardware Certification]: #hardware-certification
-[system requirements for Qubes 4.x]: /doc/system-requirements/#qubes-release-4x
+[system requirements for Qubes 4.x]: /fr/doc/system-requirements/#qubes-release-4x
 [nous contacter]: mailto:business@qubes-os.org
 [SLAT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation
 [EPT-enabled CPUs]: https://ark.intel.com/Search/FeatureFilter?productType=processors&ExtendedPageTables=true&MarketSegment=Mobile

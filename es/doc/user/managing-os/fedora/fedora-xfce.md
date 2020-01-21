@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/templates/fedora-xfce/
+permalink: /es/doc/templates/fedora-xfce/
 ref: 61
 title: The Fedora Xfce TemplateVM
+translated: 'yes'
 ---
 
 The Fedora Xfce TemplateVM
@@ -29,5 +30,5 @@ Upgrading
 
 To upgrade your Fedora TemplateVM, please see [Upgrading Fedora TemplateVMs].
 
-[Upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
-[How to Reinstall a TemplateVM]: /doc/reinstall-template/
+[Upgrading Fedora TemplateVMs]: /es/doc/template/fedora/upgrade/
+[How to Reinstall a TemplateVM]: /es/doc/reinstall-template/

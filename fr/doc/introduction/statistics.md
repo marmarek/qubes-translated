@@ -1,11 +1,12 @@
 ---
 lang: fr
 layout: valeur par défaut
-permalink: /statistics/
+permalink: /fr/statistics/
 redirect_from:
-- /counter/
+- /fr/counter/
 ref: 17
 title: Statistiques
+translated: 'yes'
 ---
 
 <div style="text-align: center; margin-bottom: 3em;">

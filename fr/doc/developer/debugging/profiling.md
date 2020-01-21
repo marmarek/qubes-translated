@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/profiling/
+permalink: /fr/doc/profiling/
 redirect_from:
-- /en/doc/profiling/
-- /doc/Profiling/
-- /wiki/Profiling/
+- /fr/doc/profiling/
+- /fr/doc/Profiling/
+- /fr/wiki/Profiling/
 ref: 135
 title: Profiling
+translated: 'yes'
 ---
 
 Profiling
@@ -95,6 +96,6 @@ Example
 
 This example is from `qubes-manager` (`qubesmanager/main.py`).
 
-!["update\_table-20140424-170010.svg"](//attachment/wiki/Profiling/update_table-20140424-170010.svg)
+!["update\_table-20140424-170010.svg"](/fr//attachment/wiki/Profiling/update_table-20140424-170010.svg)
 
 It is apparent than problem is around `get_disk_usage` which calls something via `subprocess.call`. It does it 15 times, probably once per VM.

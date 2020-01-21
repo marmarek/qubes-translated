@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/coding-style/
+permalink: /es/doc/coding-style/
 redirect_from:
-- /en/doc/coding-style/
-- /doc/CodingStyle/
-- /wiki/CodingStyle/
-- /trac/wiki/CodingStyle/
+- /es/doc/coding-style/
+- /es/doc/CodingStyle/
+- /es/wiki/CodingStyle/
+- /es/trac/wiki/CodingStyle/
 ref: 151
 title: Estilo de programación
+translated: 'yes'
 ---
 
 Coding Guidelines for Qubes Developers

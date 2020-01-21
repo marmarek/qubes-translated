@@ -1,16 +1,17 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/tools/
+permalink: /es/doc/tools/
 redirect_from:
-- /doc/tools/4.0/
-- /doc/tools/4.0/dom0/
-- /doc/tools/4.0/domU/
-- /doc/tools/3.2/
-- /doc/tools/3.2/dom0/
-- /doc/tools/3.2/domU/
+- /es/doc/tools/4.0/
+- /es/doc/tools/4.0/dom0/
+- /es/doc/tools/4.0/domU/
+- /es/doc/tools/3.2/
+- /es/doc/tools/3.2/dom0/
+- /es/doc/tools/3.2/domU/
 ref: 81
 title: Command-Line Tools
+translated: 'yes'
 ---
 
 Command-Line Tools

@@ -1,18 +1,19 @@
 ---
 lang: es
 layout: predeterminada
-permalink: /getting-started/
+permalink: /es/getting-started/
 redirect_from:
-- /doc/getting-started/
-- /en/doc/getting-started/
-- /doc/GettingStarted/
-- /wiki/GettingStarted/
+- /es/doc/getting-started/
+- /es/doc/getting-started/
+- /es/doc/GettingStarted/
+- /es/wiki/GettingStarted/
 ref: 69
 title: Comenzar
+translated: 'yes'
 ---
 
-<a name="already-installed"></a>After [installing Qubes](/doc/installation-guide/), let's cover some basic concepts.
-You might also like to refer to the [Glossary](/doc/glossary/).
+<a name="already-installed"></a>After [installing Qubes](/es/doc/installation-guide/), let's cover some basic concepts.
+You might also like to refer to the [Glossary](/es/doc/glossary/).
 
 AppVMs (qubes) and TemplateVMs
 --------------------------------
@@ -51,7 +52,7 @@ If dom0 were ever compromised, it would be Game Over<sup>TM</sup>.
 (The entire system would effectively be compromised.) 
 Due to its overarching importance, dom0 has no network connectivity and is used only for running the Window and Desktop Managers. 
 Dom0 shouldn't be used for anything else. 
-In particular, [you should never run user applications in dom0](/doc/security-guidelines/#dom0-precautions). 
+In particular, [you should never run user applications in dom0](/es/doc/security-guidelines/#dom0-precautions). 
 (That's what your qubes are for!)
 
 Qubes VM Manager and Command Line Tools
@@ -67,7 +68,7 @@ Opening a console window in dom0 can be done in several ways:
     * Start → System Tools → Konsole
     * Press Alt-F2 and type `konsole`.
 
-Various command line tools are described as part of this guide, and the whole reference can be found [here](/doc/tools/).
+Various command line tools are described as part of this guide, and the whole reference can be found [here](/es/doc/tools/).
 
 ![r2b1-dom0-konsole.png](/attachment/wiki/GettingStarted/r2b1-dom0-konsole.png)
 
@@ -127,7 +128,7 @@ If you plan on using your system for work, then it also depends on what kind of 
 
 It's a good idea to start out with the three qubes created automatically by the installer: work, personal, and untrusted. 
 Then, if and when you start to feel that some activity just doesn't fit into any of your existing qubes, or you want to partition some part of your life, you can easily create a new qube for it. 
-You'll also be able to easily copy any files you need to the newly created qube, as explained [here](/doc/copying-files/).
+You'll also be able to easily copy any files you need to the newly created qube, as explained [here](/es/doc/copying-files/).
 
 More paranoid people might find it worthwhile to read [this article](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html), which describes how one of the Qubes authors partitions her digital life into security domains.
 
@@ -135,16 +136,16 @@ Common Tasks
 ------------
 
 Here are the documentation pages for some of the main actions you'll want to perform.
-A full list is available in the [Common Tasks](/doc/#common-tasks) section of the documentation.
+A full list is available in the [Common Tasks](/es/doc/#common-tasks) section of the documentation.
 
- * [Copying and Pasting Text Between Domains](/doc/copy-paste/)
- * [Copying and Moving Files Between Domains](/doc/copying-files/)
- * [Copying from (and to) dom0](/doc/copy-from-dom0/)
- * [Updating Software in dom0](/doc/software-update-dom0/)
- * [Updating and Installing Software in VMs](/doc/software-update-vm/)
- * [Backup, Restoration, and Migration](/doc/backup-restore/)
- * [Using DisposableVMs](/doc/disposablevm/)
- * [Using and Managing USB Devices](/doc/usb/)
+ * [Copying and Pasting Text Between Domains](/es/doc/copy-paste/)
+ * [Copying and Moving Files Between Domains](/es/doc/copying-files/)
+ * [Copying from (and to) dom0](/es/doc/copy-from-dom0/)
+ * [Updating Software in dom0](/es/doc/software-update-dom0/)
+ * [Updating and Installing Software in VMs](/es/doc/software-update-vm/)
+ * [Backup, Restoration, and Migration](/es/doc/backup-restore/)
+ * [Using DisposableVMs](/es/doc/disposablevm/)
+ * [Using and Managing USB Devices](/es/doc/usb/)
 
 Running an application Full Screen
 ----------------------------------
@@ -182,27 +183,27 @@ To allow only select qubes to enter full screen mode, create a per-VM section, a
 
 In order for the changes to take effect, restart the qube(s).
 
-More details can be found [here](/doc/full-screen-mode/).
+More details can be found [here](/es/doc/full-screen-mode/).
 
 <div class="row">
   <div class="col-lg-4 col-md-4">
     <h2>Compatible Hardware</h2>
-    <p>Ready to install Qubes? Make sure your hardware is compatible, as Qubes cannot run on every type of computer. Also, check out <a href="/doc/certified-laptops/">Qubes-certified Laptops</a>.</p>
-    <a href="/hcl/" class="btn btn-primary">
+    <p>Ready to install Qubes? Make sure your hardware is compatible, as Qubes cannot run on every type of computer. Also, check out <a href="/es/doc/certified-laptops/">Qubes-certified Laptops</a>.</p>
+    <a href="/es/hcl/" class="btn btn-primary">
       <i class="fa fa-laptop"></i> Hardware Compatibility List
     </a>
   </div>
   <div class="col-lg-4 col-md-4">
     <h2>Downloads</h2>
     <p>Download an ISO, learn how to verify its authenticity and integrity, and follow our guides to install Qubes. Looking for the source code? You'll find it on <a href="https://github.com/QubesOS">GitHub</a>.</p>
-    <a href="/downloads/" class="btn btn-primary">
+    <a href="/es/downloads/" class="btn btn-primary">
       <i class="fa fa-download"></i> Downloads
     </a>
   </div>
   <div class="col-lg-4 col-md-4">
     <h2>Documentation</h2>
-    <p>Peruse our extensive library of documentation for users and developers of Qubes. You can even help us <a href="/doc/doc-guidelines/">improve</a> it!</p>
-    <a href="/doc/" class="btn btn-primary">
+    <p>Peruse our extensive library of documentation for users and developers of Qubes. You can even help us <a href="/es/doc/doc-guidelines/">improve</a> it!</p>
+    <a href="/es/doc/" class="btn btn-primary">
       <i class="fa fa-book"></i> Documentation
     </a>
   </div>

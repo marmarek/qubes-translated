@@ -1,10 +1,12 @@
 ---
 lang: es
 layout: doc
-permalink: /security/bulletins/template/
-redirect_from: /doc/security-bulletins/template/
+permalink: /es/security/bulletins/template/
+redirect_from:
+- /es/doc/security-bulletins/template/
 ref: 158
 title: Security Bulletin Template
+translated: 'yes'
 ---
 
 Security Bulletin Template

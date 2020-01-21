@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/license/
+permalink: /fr/doc/license/
 redirect_from:
-- /en/doc/license/
-- /doc/QubesLicensing/
-- /wiki/QubesLicensing/
+- /fr/doc/license/
+- /fr/doc/QubesLicensing/
+- /fr/wiki/QubesLicensing/
 ref: 153
 title: Licence
+translated: 'yes'
 ---
 
 Qubes OS License

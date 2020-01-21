@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: predeterminada
-permalink: /research/
+permalink: /es/research/
 redirect_from:
-- /doc/qubes-research/
-- /en/doc/qubes-research/
-- /doc/QubesResearch/
-- /wiki/QubesResearch/
+- /es/doc/qubes-research/
+- /es/doc/qubes-research/
+- /es/doc/QubesResearch/
+- /es/wiki/QubesResearch/
 ref: 84
 title: Investigación
+translated: 'yes'
 ---
 
 Here are links to various research papers, projects, and blog posts that relate

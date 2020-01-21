@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/building-archlinux-template/
+permalink: /fr/doc/building-archlinux-template/
 redirect_from:
-- /en/doc/building-archlinux-template/
-- /doc/BuildingArchlinuxTemplate/
-- /wiki/BuildingArchlinuxTemplate/
+- /fr/doc/building-archlinux-template/
+- /fr/doc/BuildingArchlinuxTemplate/
+- /fr/wiki/BuildingArchlinuxTemplate/
 ref: 166
 title: Building Archlinux Template
+translated: 'yes'
 ---
 
 # Archlinux template building instructions
@@ -85,7 +86,7 @@ title: Building Archlinux Template
 
       gpg --keyserver pgp.mit.edu --recv-keys 0xDDFA1A3E36879494
 
-* Verify its fingerprint, set as 'trusted'. [This is described here](/doc/VerifyingSignatures).
+* Verify its fingerprint, set as 'trusted'. [This is described here](/fr/doc/VerifyingSignatures).
 
 * Download the Qubes developers' keys.
 

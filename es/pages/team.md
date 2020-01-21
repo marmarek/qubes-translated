@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: team
-permalink: /team/
+permalink: /es/team/
 redirect_from:
-- /people/
-- /doc/QubesDevelopers/
-- /wiki/QubesDevelopers/
+- /es/people/
+- /es/doc/QubesDevelopers/
+- /es/wiki/QubesDevelopers/
 ref: 4
 title: Equipo
+translated: 'yes'
 ---
 
 <div id="team-core" class="white-box page-content more-bottom">
@@ -20,7 +21,7 @@ title: Equipo
         <div class="col-lg-2 col-md-2 col-sm-5 col-xs-12 text-center">
           <div class="picture more-bottom">
             {% if team.picture %}
-            <a href="/team/#{{team.name | slugify}}"><img src="/attachment/site/{{team.picture}}" title="Picture of {{team.name}}"></a>
+            <a href="/es/team/#{{team.name | slugify}}"><img src="/attachment/site/{{team.picture}}" title="Picture of {{team.name}}"></a>
             {% else %}
             <i class="fa fa-user"></i>
             {% endif %}
@@ -55,7 +56,7 @@ title: Equipo
     {% endif %}
   {% endfor %}
   <div class="text-center more-bottom">
-    <a href="/join/" class="btn btn-primary"><i class="fa fa-user-plus fa-fw white-icon"></i>Join the team!</a>
+    <a href="/es/join/" class="btn btn-primary"><i class="fa fa-user-plus fa-fw white-icon"></i>Join the team!</a>
   </div>
 </div>
 <div class="white-box page-content more-bottom">
@@ -90,7 +91,7 @@ title: Equipo
     <p>Qubes would not be where it is today without the input of the many users,
     testers, and developers of all skill levels who have come together to form
     this thriving community. The community's discussions take place primarily on
-    the <a href="/support/">Qubes mailing lists</a>.</p>
+    the <a href="/es/support/">Qubes mailing lists</a>.</p>
   </div>
   {% for team in site.data.team %}
     {% if team.type == "community" %}

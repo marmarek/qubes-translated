@@ -1,13 +1,14 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/rxvt/
+permalink: /fr/doc/rxvt/
 redirect_from:
-- /en/doc/rxvt/
-- /doc/Rxvt/
-- /wiki/Rxvt/
+- /fr/doc/rxvt/
+- /fr/doc/Rxvt/
+- /fr/wiki/Rxvt/
 ref: 200
 title: Rxvt
+translated: 'yes'
 ---
 
 Rxvt

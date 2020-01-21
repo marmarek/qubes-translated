@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/building-non-fedora-template/
+permalink: /es/doc/building-non-fedora-template/
 redirect_from:
-- /en/doc/building-non-fedora-template/
-- /doc/BuildingNonFedoraTemplate/
-- /wiki/BuildingNonFedoraTemplate/
+- /es/doc/building-non-fedora-template/
+- /es/doc/BuildingNonFedoraTemplate/
+- /es/wiki/BuildingNonFedoraTemplate/
 ref: 165
 title: Building Non-Fedora Template
+translated: 'yes'
 ---
 
 Building a TemplateVM for a new OS
@@ -155,7 +156,7 @@ For this, Qubes git can be used as several patches have been selected by Qubes d
 Start by retrieving a recent git and identify how you can build a package from it: `git clone https://github.com/QubesOS/qubes-vmm-xen.git`.
 
 Find the .spec file in the git repository (this is the file used to build rpm packages), and try to adapt it to your OS in order to build a package similar to the target 'vmm-xen'.
-For example, a PKGBUILD has been created for [ArchLinux](/doc/templates/archlinux/) which can be found in the vmm-xen repository.
+For example, a PKGBUILD has been created for [ArchLinux](/es/doc/templates/archlinux/) which can be found in the vmm-xen repository.
 
 Don't be afraid of the complexity of the PKGBUILD: most of the code is almost a copy/paste of required sources and patches found in the .spec file provided in the git repository.
 

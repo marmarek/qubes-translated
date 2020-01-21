@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/templates/fedora/
+permalink: /es/doc/templates/fedora/
 ref: 59
 title: The Fedora TemplateVM
+translated: 'yes'
 ---
 
 # The Fedora TemplateVM
@@ -50,15 +51,15 @@ This section contains notes about specific Fedora releases.
 (There is currently no release-specific information documented.)
 
 
-[TemplateVM]: /doc/templates/
-[Fedora Xfce]: /doc/templates/fedora-xfce/
-[Minimal TemplateVMs]: /doc/templates/minimal/
+[TemplateVM]: /es/doc/templates/
+[Fedora Xfce]: /es/doc/templates/fedora-xfce/
+[Minimal TemplateVMs]: /es/doc/templates/minimal/
 [end-of-life]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[supported]: /doc/supported-versions/#templatevms
-[How to Reinstall a TemplateVM]: /doc/reinstall-template/
-[Update the TemplateVM]: /doc/software-update-vm/
-[switch]: /doc/templates/#switching
-[uninstall the old TemplateVM]: /doc/templates/#uninstalling
-[Updating software in TemplateVMs]: /doc/software-update-domu/#updating-software-in-templatevms
-[Upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
-[install]: /doc/templates/#installing
+[supported]: /es/doc/supported-versions/#templatevms
+[How to Reinstall a TemplateVM]: /es/doc/reinstall-template/
+[Update the TemplateVM]: /es/doc/software-update-vm/
+[switch]: /es/doc/templates/#switching
+[uninstall the old TemplateVM]: /es/doc/templates/#uninstalling
+[Updating software in TemplateVMs]: /es/doc/software-update-domu/#updating-software-in-templatevms
+[Upgrading Fedora TemplateVMs]: /es/doc/template/fedora/upgrade/
+[install]: /es/doc/templates/#installing

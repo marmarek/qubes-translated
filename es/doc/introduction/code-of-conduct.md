@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: predeterminada
-permalink: /code-of-conduct/
+permalink: /es/code-of-conduct/
 ref: 19
 title: Código de Conducta
+translated: 'yes'
 ---
 
 ## Introducción
@@ -68,6 +69,6 @@ The initial published version of this Code of Conduct was adapted from the [Cont
 [history of changes]: https://github.com/QubesOS/qubes-doc/commits/master/about/code-of-conduct.md
 [discussion]: https://github.com/QubesOS/qubes-issues/issues/2163
 [Citizen Code of Conduct]: http://citizencodeofconduct.org/
-[mailing list discussion guidelines]: /support/#discussion-list-guidelines
+[mailing list discussion guidelines]: /es/support/#discussion-list-guidelines
 [Contributor Covenant, version 1.4]: http://contributor-covenant.org/version/1/4
 [Rust Code of Conduct]: https://www.rust-lang.org/en-US/conduct.html

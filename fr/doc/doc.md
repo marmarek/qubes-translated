@@ -1,40 +1,41 @@
 ---
 lang: fr
 layout: doc-index
-permalink: /doc/
+permalink: /fr/doc/
 redirect_from:
-- /en/doc/
-- /doc/UserDoc/
-- /wiki/UserDoc/
-- /doc/QubesDocs/
-- /wiki/QubesDocs/
-- /help/
-- /en/help/
-- /en/community/
-- /community/
+- /fr/doc/
+- /fr/doc/UserDoc/
+- /fr/wiki/UserDoc/
+- /fr/doc/QubesDocs/
+- /fr/wiki/QubesDocs/
+- /fr/help/
+- /fr/help/
+- /fr/community/
+- /fr/community/
 ref: 11
 title: Documentation
+translated: 'yes'
 ---
 
 ## Présentation
 
- * [Qu’est-ce que Qubes OS ?](/intro/)
- * [Video Tours](/video-tours/)
- * [Screenshots](/screenshots/)
- * [User FAQ](/faq/#users)
- * [Reporting Bugs and Other Issues](/doc/reporting-bugs/)
- * [Help, Support, and Mailing Lists](/support/)
- * [How to Contribute](/doc/contributing/)
+ * [Qu’est-ce que Qubes OS ?](/fr/intro/)
+ * [Video Tours](/fr/video-tours/)
+ * [Screenshots](/fr/screenshots/)
+ * [User FAQ](/fr/faq/#users)
+ * [Reporting Bugs and Other Issues](/fr/doc/reporting-bugs/)
+ * [Help, Support, and Mailing Lists](/fr/support/)
+ * [How to Contribute](/fr/doc/contributing/)
 
 ## Project Security
 
- * [Security Center](/security/)
- * [Security FAQ](/faq/#general--security)
- * [Security Pack](/security/pack/)
- * [Security Bulletins](/security/bulletins/)
- * [Canaries](/security/canaries/)
- * [Xen Security Advisory (XSA) Tracker](/security/xsa/)
- * [Vérifications des signatures](/security/verifying-signatures/)
+ * [Security Center](/fr/security/)
+ * [Security FAQ](/fr/faq/#general--security)
+ * [Security Pack](/fr/security/pack/)
+ * [Security Bulletins](/fr/security/bulletins/)
+ * [Canaries](/fr/security/canaries/)
+ * [Xen Security Advisory (XSA) Tracker](/fr/security/xsa/)
+ * [Vérifications des signatures](/fr/security/verifying-signatures/)
  * [Qubes PGP Keys](https://keys.qubes-os.org/keys/)
 
 
@@ -44,84 +45,84 @@ Core documentation for Qubes users.
 
 ### Choosing Your Hardware
 
- * [Configuration exigée](/doc/system-requirements/)
- * [Certified Hardware](/doc/certified-hardware/)
- * [Hardware Compatibility List (HCL)](/hcl/)
- * [Hardware Testing](/doc/hardware-testing/)
+ * [Configuration exigée](/fr/doc/system-requirements/)
+ * [Certified Hardware](/fr/doc/certified-hardware/)
+ * [Hardware Compatibility List (HCL)](/fr/hcl/)
+ * [Hardware Testing](/fr/doc/hardware-testing/)
 
 ### Downloading, Installing, and Upgrading Qubes
 
- * [Téléchargements](/downloads/)
- * [Installation Guide](/doc/installation-guide/)
- * [Upgrade Guides](/doc/upgrade/)
- * [Supported Versions](/doc/supported-versions/)
- * [Version Scheme](/doc/version-scheme/)
- * [Testing New Releases and Updates](/doc/testing/)
+ * [Téléchargements](/fr/downloads/)
+ * [Installation Guide](/fr/doc/installation-guide/)
+ * [Upgrade Guides](/fr/doc/upgrade/)
+ * [Supported Versions](/fr/doc/supported-versions/)
+ * [Version Scheme](/fr/doc/version-scheme/)
+ * [Testing New Releases and Updates](/fr/doc/testing/)
 
 ### Common Tasks
 
- * [Premiers pas](/getting-started/)
- * [Copying and Pasting Text Between Domains](/doc/copy-paste/)
- * [Copying and Moving Files Between Domains](/doc/copying-files/)
- * [Copying from (and to) Dom0](/doc/copy-from-dom0/)
- * [Updating Qubes OS](/doc/updating-qubes-os/)
- * [Installing and Updating Software in Dom0](/doc/software-update-dom0/)
- * [Installing and Updating Software in DomUs](/doc/software-update-domu/)
- * [Backup, Restoration, and Migration](/doc/backup-restore/)
- * [DisposableVMs](/doc/disposablevm/)
- * [Block (or Storage) Devices](/doc/block-devices/)
- * [USB Devices](/doc/usb-devices)
- * [PCI Devices](/doc/pci-devices/)
- * [Device Handling](/doc/device-handling/)
- * [Optical Discs](/doc/optical-discs/)
- * [Application Shortcuts](/doc/managing-appvm-shortcuts/)
- * [Fullscreen Mode](/doc/full-screen-mode/)
+ * [Premiers pas](/fr/getting-started/)
+ * [Copying and Pasting Text Between Domains](/fr/doc/copy-paste/)
+ * [Copying and Moving Files Between Domains](/fr/doc/copying-files/)
+ * [Copying from (and to) Dom0](/fr/doc/copy-from-dom0/)
+ * [Updating Qubes OS](/fr/doc/updating-qubes-os/)
+ * [Installing and Updating Software in Dom0](/fr/doc/software-update-dom0/)
+ * [Installing and Updating Software in DomUs](/fr/doc/software-update-domu/)
+ * [Backup, Restoration, and Migration](/fr/doc/backup-restore/)
+ * [DisposableVMs](/fr/doc/disposablevm/)
+ * [Block (or Storage) Devices](/fr/doc/block-devices/)
+ * [USB Devices](/fr/doc/usb-devices)
+ * [PCI Devices](/fr/doc/pci-devices/)
+ * [Device Handling](/fr/doc/device-handling/)
+ * [Optical Discs](/fr/doc/optical-discs/)
+ * [Application Shortcuts](/fr/doc/managing-appvm-shortcuts/)
+ * [Fullscreen Mode](/fr/doc/full-screen-mode/)
 
 ### Managing Operating Systems within Qubes
 
- * [TemplateVMs](/doc/templates/)
- * [Fedora](/doc/templates/fedora/)
- * [Debian](/doc/templates/debian/)
- * [Minimal TemplateVMs](/doc/templates/minimal/)
- * [Windows](/doc/windows/)
- * [StandaloneVMs and HVMs](/doc/standalone-and-hvm/)
+ * [TemplateVMs](/fr/doc/templates/)
+ * [Fedora](/fr/doc/templates/fedora/)
+ * [Debian](/fr/doc/templates/debian/)
+ * [Minimal TemplateVMs](/fr/doc/templates/minimal/)
+ * [Windows](/fr/doc/windows/)
+ * [StandaloneVMs and HVMs](/fr/doc/standalone-and-hvm/)
 
 ### Security in Qubes
 
- * [Qubes Firewall](/doc/firewall/)
- * [Understanding and Preventing Data Leaks](/doc/data-leaks/)
- * [Passwordless Root Access in VMs](/doc/vm-sudo/)
- * [Device Handling Security](/doc/device-handling-security/)
- * [Anti Evil Maid](/doc/anti-evil-maid/)
- * [Split GPG](/doc/split-gpg/)
- * [U2F Proxy](/doc/u2f-proxy/)
- * [YubiKey](/doc/yubi-key/)
+ * [Qubes Firewall](/fr/doc/firewall/)
+ * [Understanding and Preventing Data Leaks](/fr/doc/data-leaks/)
+ * [Passwordless Root Access in VMs](/fr/doc/vm-sudo/)
+ * [Device Handling Security](/fr/doc/device-handling-security/)
+ * [Anti Evil Maid](/fr/doc/anti-evil-maid/)
+ * [Split GPG](/fr/doc/split-gpg/)
+ * [U2F Proxy](/fr/doc/u2f-proxy/)
+ * [YubiKey](/fr/doc/yubi-key/)
 
 ### Configuration avancée
 
- * [Fichiers de configuration](/doc/config-files/)
- * [Storing AppVMs on Secondary Drives](/doc/secondary-storage/)
- * [RPC Policies](/doc/rpc-policy/)
- * [USB Qubes](/doc/usb-qubes/)
- * [Managing VM Kernels](/doc/managing-vm-kernel/)
- * [Salt Management Stack](/doc/salt/)
- * [DisposableVM Customization](/doc/disposablevm-customization/)
- * [Making Any File Persistent Using `bind-dirs`](/doc/bind-dirs/)
- * [GUI Configuration](/doc/gui-configuration/)
- * [Resizing Disk Images](/doc/resize-disk-image/)
- * [Troubleshooting UEFI](/doc/uefi-troubleshooting/)
- * [Troubleshooting Newer Hardware](/doc/newer-hardware-troubleshooting/)
- * [Mounting and Decrypting Qubes Partitions from Outside Qubes](/doc/mount-from-other-os/)
- * [KDE](/doc/kde/)
- * [i3 Window Manager](/doc/i3/)
- * [awesome Window Manager](/doc/awesome/)
+ * [Fichiers de configuration](/fr/doc/config-files/)
+ * [Storing AppVMs on Secondary Drives](/fr/doc/secondary-storage/)
+ * [RPC Policies](/fr/doc/rpc-policy/)
+ * [USB Qubes](/fr/doc/usb-qubes/)
+ * [Managing VM Kernels](/fr/doc/managing-vm-kernel/)
+ * [Salt Management Stack](/fr/doc/salt/)
+ * [DisposableVM Customization](/fr/doc/disposablevm-customization/)
+ * [Making Any File Persistent Using `bind-dirs`](/fr/doc/bind-dirs/)
+ * [GUI Configuration](/fr/doc/gui-configuration/)
+ * [Resizing Disk Images](/fr/doc/resize-disk-image/)
+ * [Troubleshooting UEFI](/fr/doc/uefi-troubleshooting/)
+ * [Troubleshooting Newer Hardware](/fr/doc/newer-hardware-troubleshooting/)
+ * [Mounting and Decrypting Qubes Partitions from Outside Qubes](/fr/doc/mount-from-other-os/)
+ * [KDE](/fr/doc/kde/)
+ * [i3 Window Manager](/fr/doc/i3/)
+ * [awesome Window Manager](/fr/doc/awesome/)
 
 ### Reference Pages
 
- * [Command-line Tools](/doc/tools/)
- * [Glossaire](/doc/glossary/)
- * [Qubes Service Framework](/doc/qubes-service/)
- * [Command Execution in VMs (and Qubes RPC)](/doc/qrexec/)
+ * [Command-line Tools](/fr/doc/tools/)
+ * [Glossaire](/fr/doc/glossary/)
+ * [Qubes Service Framework](/fr/doc/qubes-service/)
+ * [Command Execution in VMs (and Qubes RPC)](/fr/doc/qrexec/)
  * [Deprecated Documentation](https://github.com/QubesOS/qubesos.github.io#deprecated-documentation)
 
 
@@ -131,69 +132,69 @@ Core documentation for Qubes developers and advanced users.
 
 ### Général
 
- * [Developer FAQ](/faq/#developers)
- * [Package Contributions](/doc/package-contributions/)
- * [Documentation Guidelines](/doc/doc-guidelines/)
+ * [Developer FAQ](/fr/faq/#developers)
+ * [Package Contributions](/fr/doc/package-contributions/)
+ * [Documentation Guidelines](/fr/doc/doc-guidelines/)
  * [Community-Developed Feature Tracker](/qubes-issues/)
- * [Google Summer of Code](/gsoc/)
- * [Google Season of Docs](/gsod/)
- * [Books for Developers](/doc/devel-books/)
- * [Style Guide](/doc/style-guide/)
- * [Usability & UX](/doc/usability-ux/)
+ * [Google Summer of Code](/fr/gsoc/)
+ * [Google Season of Docs](/fr/gsod/)
+ * [Books for Developers](/fr/doc/devel-books/)
+ * [Style Guide](/fr/doc/style-guide/)
+ * [Usability & UX](/fr/doc/usability-ux/)
 
 ### Code
 
- * [Code source](/doc/source-code/)
- * [Software License](/doc/license/)
- * [Coding Guidelines](/doc/coding-style/)
- * [Code Signing](/doc/code-signing/)
+ * [Code source](/fr/doc/source-code/)
+ * [Software License](/fr/doc/license/)
+ * [Coding Guidelines](/fr/doc/coding-style/)
+ * [Code Signing](/fr/doc/code-signing/)
 
 ### Système
 
- * [Qubes OS Architecture Overview](/doc/architecture/)
+ * [Qubes OS Architecture Overview](/fr/doc/architecture/)
  * [Qubes OS Architecture Spec v0.3 [PDF]](/attachment/wiki/QubesArchitecture/arch-spec-0.3.pdf)
- * [Security-critical Code in Qubes OS](/doc/security-critical-code/)
+ * [Security-critical Code in Qubes OS](/fr/doc/security-critical-code/)
  * [Qubes Core Admin](https://dev.qubes-os.org/projects/core-admin/en/latest/)
  * [Qubes Core Admin Client](https://dev.qubes-os.org/projects/core-admin-client/en/latest/)
  * [Qubes Admin API](/news/2017/06/27/qubes-admin-api/)
  * [Qubes Core Stack](/news/2017/10/03/core3/)
- * [Qubes GUI virtualization protocol](/doc/gui/)
- * [Networking in Qubes](/doc/networking/)
- * [Implementation of template sharing and updating](/doc/template-implementation/)
- * [Storage Pools](/doc/storage-pools/)
- * [Audio virtualization](/doc/audio-virtualization/)
+ * [Qubes GUI virtualization protocol](/fr/doc/gui/)
+ * [Networking in Qubes](/fr/doc/networking/)
+ * [Implementation of template sharing and updating](/fr/doc/template-implementation/)
+ * [Storage Pools](/fr/doc/storage-pools/)
+ * [Audio virtualization](/fr/doc/audio-virtualization/)
 
 ### Services
 
- * [Inter-domain file copying](/doc/qfilecopy/) (deprecates [`qfileexchgd`](/doc/qfileexchgd/))
- * [Dynamic memory management in Qubes](/doc/qmemman/)
- * [Implementation of DisposableVMs](/doc/dvm-impl/)
- * [Dom0 secure update mechanism](/doc/dom0-secure-updates/)
- * [Qrexec: secure communication across domains](/doc/qrexec/)
- * [Qubes RPC internals](/doc/qrexec-internals/)
+ * [Inter-domain file copying](/fr/doc/qfilecopy/) (deprecates [`qfileexchgd`](/fr/doc/qfileexchgd/))
+ * [Dynamic memory management in Qubes](/fr/doc/qmemman/)
+ * [Implementation of DisposableVMs](/fr/doc/dvm-impl/)
+ * [Dom0 secure update mechanism](/fr/doc/dom0-secure-updates/)
+ * [Qrexec: secure communication across domains](/fr/doc/qrexec/)
+ * [Qubes RPC internals](/fr/doc/qrexec-internals/)
 
 ### Débogage
 
- * [Profiling python code](/doc/profiling/)
- * [Test environment in separate machine for automatic tests](/doc/test-bench/)
- * [Automated tests](/doc/automated-tests/)
- * [VM-dom0 internal configuration interface](/doc/vm-interface/)
- * [Debugging Windows VMs](/doc/windows-debugging/)
- * [Safe Remote Dom0 Terminals](/doc/safe-remote-ttys/)
- * [Mount LVM Image](/doc/mount-lvm-image/)
+ * [Profiling python code](/fr/doc/profiling/)
+ * [Test environment in separate machine for automatic tests](/fr/doc/test-bench/)
+ * [Automated tests](/fr/doc/automated-tests/)
+ * [VM-dom0 internal configuration interface](/fr/doc/vm-interface/)
+ * [Debugging Windows VMs](/fr/doc/windows-debugging/)
+ * [Safe Remote Dom0 Terminals](/fr/doc/safe-remote-ttys/)
+ * [Mount LVM Image](/fr/doc/mount-lvm-image/)
 
 ### En construction
 
- * [Building Qubes](/doc/qubes-builder/) (["API" Details](/doc/qubes-builder-details/))
- * [Development Workflow](/doc/development-workflow/)
- * [Building Qubes OS ISO](/doc/qubes-iso-building/)
+ * [Building Qubes](/fr/doc/qubes-builder/) (["API" Details](/fr/doc/qubes-builder-details/))
+ * [Development Workflow](/fr/doc/development-workflow/)
+ * [Building Qubes OS ISO](/fr/doc/qubes-iso-building/)
  * [Qubes Template Configuration Files](https://github.com/QubesOS/qubes-template-configs)
 
 ### Releases
 
- * [Notes de version](/doc/releases/notes/)
- * [Release schedules](/doc/releases/schedules/)
- * [Release checklist](/doc/releases/todo/)
+ * [Notes de version](/fr/doc/releases/notes/)
+ * [Release schedules](/fr/doc/releases/schedules/)
+ * [Release checklist](/fr/doc/releases/todo/)
 
 
 ## External Documentation
@@ -204,77 +205,77 @@ Unofficial, third-party documentation from the Qubes community and others.
 
 ### Operating System Guides
 
- * [Template: Archlinux](/doc/templates/archlinux/)
- * [Template: Ubuntu](/doc/templates/ubuntu/)
- * [Template: Whonix](/doc/whonix/)
- * [Pentesting](/doc/pentesting/)
- * [Pentesting: BlackArch](/doc/pentesting/blackarch/)
- * [Pentesting: Kali](/doc/pentesting/kali/)
- * [Pentesting: PTF](/doc/pentesting/ptf/)
- * [Tips for Using Linux in an HVM](/doc/linux-hvm-tips/)
- * [Creating a NetBSD VM](/doc/netbsd/)
+ * [Template: Archlinux](/fr/doc/templates/archlinux/)
+ * [Template: Ubuntu](/fr/doc/templates/ubuntu/)
+ * [Template: Whonix](/fr/doc/whonix/)
+ * [Pentesting](/fr/doc/pentesting/)
+ * [Pentesting: BlackArch](/fr/doc/pentesting/blackarch/)
+ * [Pentesting: Kali](/fr/doc/pentesting/kali/)
+ * [Pentesting: PTF](/fr/doc/pentesting/ptf/)
+ * [Tips for Using Linux in an HVM](/fr/doc/linux-hvm-tips/)
+ * [Creating a NetBSD VM](/fr/doc/netbsd/)
 
 ### Security Guides
 
- * [Security Guidelines](/doc/security-guidelines/)
- * [Using Multi-factor Authentication with Qubes](/doc/multifactor-authentication/)
- * [How to Set Up a Split Bitcoin Wallet in Qubes](/doc/split-bitcoin/)
+ * [Security Guidelines](/fr/doc/security-guidelines/)
+ * [Using Multi-factor Authentication with Qubes](/fr/doc/multifactor-authentication/)
+ * [How to Set Up a Split Bitcoin Wallet in Qubes](/fr/doc/split-bitcoin/)
  * [Split dm-crypt](https://github.com/rustybird/qubes-split-dm-crypt)
  * [Using OnlyKey with Qubes OS](https://docs.crp.to/qubes.html)
 
 ### Privacy Guides
 
- * [Whonix for Privacy & Anonymity](/doc/whonix/)
- * [Running Tails in Qubes](/doc/tails/)
- * [Anonymizing your MAC Address](/doc/anonymizing-your-mac-address/)
- * [Martus](/doc/martus/)
- * [Signal](/doc/signal/)
- * [Reducing the fingerprint of the text-based web browser w3m](/doc/w3m/)
+ * [Whonix for Privacy & Anonymity](/fr/doc/whonix/)
+ * [Running Tails in Qubes](/fr/doc/tails/)
+ * [Anonymizing your MAC Address](/fr/doc/anonymizing-your-mac-address/)
+ * [Martus](/fr/doc/martus/)
+ * [Signal](/fr/doc/signal/)
+ * [Reducing the fingerprint of the text-based web browser w3m](/fr/doc/w3m/)
 
 ### Configuration Guides
 
- * [Qubes Tips and Tricks](/doc/tips-and-tricks/)
- * [How to set up a ProxyVM as a VPN Gateway](/doc/vpn/)
- * [Multibooting](/doc/multiboot/)
- * [Changing your Time Zone](/doc/change-time-zone/)
- * [Installing ZFS in Qubes](/doc/zfs/)
- * [Mutt Guide](/doc/mutt/)
- * [Postfix Guide](/doc/postfix/)
- * [Fetchmail Guide](/doc/fetchmail/)
+ * [Qubes Tips and Tricks](/fr/doc/tips-and-tricks/)
+ * [How to set up a ProxyVM as a VPN Gateway](/fr/doc/vpn/)
+ * [Multibooting](/fr/doc/multiboot/)
+ * [Changing your Time Zone](/fr/doc/change-time-zone/)
+ * [Installing ZFS in Qubes](/fr/doc/zfs/)
+ * [Mutt Guide](/fr/doc/mutt/)
+ * [Postfix Guide](/fr/doc/postfix/)
+ * [Fetchmail Guide](/fr/doc/fetchmail/)
  * [Creating Custom NetVMs and ProxyVMs](https://theinvisiblethings.blogspot.com/2011/09/playing-with-qubes-networking-for-fun.html)
  * [How to make proxy for individual tcp connection from networkless VM](https://groups.google.com/group/qubes-devel/msg/4ca950ab6d7cd11a)
- * [Adding Bridge Support to the NetVM (EXPERIMENTAL)](/doc/network-bridge-support/)
- * [Enabling TRIM for SSD disks](/doc/disk-trim/)
- * [Configuring a Network Printer](/doc/network-printer/)
- * [Using External Audio Devices](/doc/external-audio/)
- * [Rxvt Guide](/doc/rxvt/)
+ * [Adding Bridge Support to the NetVM (EXPERIMENTAL)](/fr/doc/network-bridge-support/)
+ * [Enabling TRIM for SSD disks](/fr/doc/disk-trim/)
+ * [Configuring a Network Printer](/fr/doc/network-printer/)
+ * [Using External Audio Devices](/fr/doc/external-audio/)
+ * [Rxvt Guide](/fr/doc/rxvt/)
  * [Adding SSD storage cache](https://groups.google.com/d/msgid/qubes-users/a08359c9-9eb0-4d1a-ad92-a8a9bc676ea6%40googlegroups.com)
- * [How to Make a Multimedia TemplateVM](/doc/multimedia/)
+ * [How to Make a Multimedia TemplateVM](/fr/doc/multimedia/)
 
 ### Customization Guides
 
- * [Customizing Fedora minimal templates](/doc/fedora-minimal-template-customization/)
- * [Customizing Windows 7 templates](/doc/windows-template-customization/)
- * [Language Localization](/doc/language-localization/)
- * [Dark Theme in Dom0 and DomU](/doc/dark-theme/)
- * [Safely Removing TemplateVM Packages (Example: Thunderbird)](/doc/removing-templatevm-packages/)
+ * [Customizing Fedora minimal templates](/fr/doc/fedora-minimal-template-customization/)
+ * [Customizing Windows 7 templates](/fr/doc/windows-template-customization/)
+ * [Language Localization](/fr/doc/language-localization/)
+ * [Dark Theme in Dom0 and DomU](/fr/doc/dark-theme/)
+ * [Safely Removing TemplateVM Packages (Example: Thunderbird)](/fr/doc/removing-templatevm-packages/)
 
 ### Dépannage
 
- * [Home directory is out of disk space error](/doc/out-of-memory/)
+ * [Home directory is out of disk space error](/fr/doc/out-of-memory/)
  * [Installing on system with new AMD GPU (missing firmware problem)](https://groups.google.com/group/qubes-devel/browse_thread/thread/e27a57b0eda62f76)
- * [How to install an Nvidia driver in dom0](/doc/install-nvidia-driver/)
- * [Nvidia troubleshooting guide](/doc/nvidia-troubleshooting/)
- * [Lenovo ThinkPad Troubleshooting](/doc/thinkpad-troubleshooting/)
- * [Apple MacBook Troubleshooting](/doc/macbook-troubleshooting/)
- * [Getting Sony Vaio Z laptop to work with Qubes](/doc/sony-vaio-tinkering/)
- * [Fixing wireless on suspend & resume](/doc/wireless-troubleshooting/)
- * [How to remove VMs manually](/doc/remove-vm-manually/)
- * [Intel Integrated Graphics Troubleshooting](/doc/intel-igfx-troubleshooting/)
+ * [How to install an Nvidia driver in dom0](/fr/doc/install-nvidia-driver/)
+ * [Nvidia troubleshooting guide](/fr/doc/nvidia-troubleshooting/)
+ * [Lenovo ThinkPad Troubleshooting](/fr/doc/thinkpad-troubleshooting/)
+ * [Apple MacBook Troubleshooting](/fr/doc/macbook-troubleshooting/)
+ * [Getting Sony Vaio Z laptop to work with Qubes](/fr/doc/sony-vaio-tinkering/)
+ * [Fixing wireless on suspend & resume](/fr/doc/wireless-troubleshooting/)
+ * [How to remove VMs manually](/fr/doc/remove-vm-manually/)
+ * [Intel Integrated Graphics Troubleshooting](/fr/doc/intel-igfx-troubleshooting/)
 
 ### Building Guides
 
- * [Building a TemplateVM based on a new OS (ArchLinux example)](/doc/building-non-fedora-template/)
- * [Building the Archlinux Template](/doc/building-archlinux-template/)
- * [Building the Whonix Templates](/doc/building-whonix-template/)
+ * [Building a TemplateVM based on a new OS (ArchLinux example)](/fr/doc/building-non-fedora-template/)
+ * [Building the Archlinux Template](/fr/doc/building-archlinux-template/)
+ * [Building the Whonix Templates](/fr/doc/building-whonix-template/)
  * [How to compile kernels for dom0](https://groups.google.com/d/topic/qubes-users/yBeUJPwKwHM/discussion)

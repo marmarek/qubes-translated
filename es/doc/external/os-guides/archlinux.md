@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/templates/archlinux/
+permalink: /es/doc/templates/archlinux/
 redirect_from:
-- /doc/archlinux/
-- /en/doc/templates/archlinux/
-- /doc/Templates/Archlinux/
-- /wiki/Templates/Archlinux/
+- /es/doc/archlinux/
+- /es/doc/templates/archlinux/
+- /es/doc/Templates/Archlinux/
+- /es/wiki/Templates/Archlinux/
 ref: 188
 title: Plantilla de Archlinux
+translated: 'yes'
 ---
 
 # Plantilla de Archlinux
@@ -28,7 +29,7 @@ Updates for this template are provided by [Olivier Médoc](mailto:o_medoc@yahoo.
 
 ## Instalación
 
-A prebuilt template is available only for Qubes 3.2. Before Qubes 3.2, it should be compiled from source as described in [building-archlinux-template](/doc/building-archlinux-template/).
+A prebuilt template is available only for Qubes 3.2. Before Qubes 3.2, it should be compiled from source as described in [building-archlinux-template](/es/doc/building-archlinux-template/).
 
     [user@dom0 ~]$ sudo qubes-dom0-update --enablerepo=qubes-templates-community qubes-template-archlinux
 
@@ -429,8 +430,8 @@ Note: For info on Reflector and its configs: [Reflector](https://wiki.archlinux.
 
 ## Want to contribute?
 
-*   [¿Cómo puedo contribuir al Qubes Project?](/doc/contributing/)
+*   [¿Cómo puedo contribuir al Qubes Project?](/es/doc/contributing/)
 
-*   [Directrices para contribuidores a la documentación](/doc/doc-guidelines/)
+*   [Directrices para contribuidores a la documentación](/es/doc/doc-guidelines/)
 
 <br>

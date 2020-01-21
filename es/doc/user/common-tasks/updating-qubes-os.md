@@ -1,9 +1,10 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/updating-qubes-os/
+permalink: /es/doc/updating-qubes-os/
 ref: 65
 title: Updating Qubes OS
+translated: 'yes'
 ---
 
 Updating Qubes OS
@@ -30,17 +31,17 @@ When this happens, you should make sure to follow the guide to upgrade to a supp
 The one exception is dom0, which [doesn't have to be upgraded][dom0-eol].
 
 
-[supported version of Qubes OS]: /doc/supported-versions/#qubes-os
-[Upgrade Guides]: /doc/upgrade/
-[seguridad]: /security/
-[Dom0]: /doc/software-update-dom0/
-[TemplateVMs]: /doc/software-update-domu/#updating-software-in-templatevms
-[StandaloneVMs]: /doc/software-update-domu/#standalonevms
-[Fedora TemplateVM]: /doc/templates/fedora/
+[supported version of Qubes OS]: /es/doc/supported-versions/#qubes-os
+[Upgrade Guides]: /es/doc/upgrade/
+[seguridad]: /es/security/
+[Dom0]: /es/doc/software-update-dom0/
+[TemplateVMs]: /es/doc/software-update-domu/#updating-software-in-templatevms
+[StandaloneVMs]: /es/doc/software-update-domu/#standalonevms
+[Fedora TemplateVM]: /es/doc/templates/fedora/
 [Fedora Project]: https://getfedora.org/
 [schedule]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
 [announcements]: /news/categories/#announcements
-[Fedora upgrade guides]: /doc/templates/fedora/#upgrading
-[Debian upgrade guides]: /doc/templates/debian/#upgrading
-[dom0-eol]: /doc/supported-versions/#note-on-dom0-and-eol
+[Fedora upgrade guides]: /es/doc/templates/fedora/#upgrading
+[Debian upgrade guides]: /es/doc/templates/debian/#upgrading
+[dom0-eol]: /es/doc/supported-versions/#note-on-dom0-and-eol

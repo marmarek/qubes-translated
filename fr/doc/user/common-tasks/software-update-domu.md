@@ -1,14 +1,15 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/software-update-domu/
+permalink: /fr/doc/software-update-domu/
 redirect_from:
-- /doc/software-update-vm/
-- /en/doc/software-update-vm/
-- /doc/SoftwareUpdateVM/
-- /wiki/SoftwareUpdateVM/
+- /fr/doc/software-update-vm/
+- /fr/doc/software-update-vm/
+- /fr/doc/SoftwareUpdateVM/
+- /fr/wiki/SoftwareUpdateVM/
 ref: 68
 title: Installing and updating software in domUs
+translated: 'yes'
 ---
 
 # Installing and updating software in domUs
@@ -284,13 +285,13 @@ Note that the app will autostart only when the AppVM starts. If you would like t
 
 
 
-[domUs]: /doc/glossary/#domu
-[TemplateVMs]: /doc/templates/
-[StandaloneVM]: /doc/standalone-and-hvm/
-[Updating Qubes OS]: /doc/updating-qubes-os/
-[sécurité]: /security/
-[TemplateBasedVMs]: /doc/glossary/#templatebasedvm
-[testing]: /doc/testing
+[domUs]: /fr/doc/glossary/#domu
+[TemplateVMs]: /fr/doc/templates/
+[StandaloneVM]: /fr/doc/standalone-and-hvm/
+[Updating Qubes OS]: /fr/doc/updating-qubes-os/
+[sécurité]: /fr/security/
+[TemplateBasedVMs]: /fr/doc/glossary/#templatebasedvm
+[testing]: /fr/doc/testing
 [RPM Fusion]: http://rpmfusion.org/
-[service framework]: /doc/qubes-service/
-[How to Reinstall a TemplateVM]: /doc/reinstall-template/
+[service framework]: /fr/doc/qubes-service/
+[How to Reinstall a TemplateVM]: /fr/doc/reinstall-template/

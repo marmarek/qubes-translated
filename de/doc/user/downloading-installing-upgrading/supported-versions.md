@@ -1,9 +1,10 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/supported-versions/
+permalink: /de/doc/supported-versions/
 ref: 40
 title: Supported Versions
+translated: 'yes'
 ---
 
 # Supported Versions
@@ -130,16 +131,16 @@ To be precise:
 We aim to announce both types of events one month in advance in order to remind users to upgrade.
 
 
-[Version Scheme]: /doc/version-scheme/
-[Downloads]: /downloads/
-[download mirrors]: /downloads/#mirrors
-[security-critical]: /doc/security-critical-code/
-[TemplateVM]: /doc/templates/
+[Version Scheme]: /de/doc/version-scheme/
+[Downloads]: /de/downloads/
+[download mirrors]: /de/downloads/#mirrors
+[security-critical]: /de/doc/security-critical-code/
+[TemplateVM]: /de/doc/templates/
 [extended support]: /news/2018/03/28/qubes-40/#the-past-and-the-future
 [4.1]: https://github.com/QubesOS/qubes-issues/issues?utf8=%E2%9C%93&q=is%3Aissue+milestone%3A%22Release+4.1%22+
-[Fedora]: /doc/templates/fedora/
-[Debian]: /doc/templates/debian/
+[Fedora]: /de/doc/templates/fedora/
+[Debian]: /de/doc/templates/debian/
 [fedora-eol]: https://fedoraproject.org/wiki/End_of_life
 [debian-eol]: https://wiki.debian.org/DebianReleases
-[Whonix]: /doc/whonix/
+[Whonix]: /de/doc/whonix/
 [Whonix Project]: https://www.whonix.org/

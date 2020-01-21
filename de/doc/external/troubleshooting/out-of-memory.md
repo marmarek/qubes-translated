@@ -1,13 +1,14 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/out-of-memory/
+permalink: /de/doc/out-of-memory/
 redirect_from:
-- /en/doc/out-of-memory/
-- /doc/OutOfmemory/
-- /wiki/OutOfmemory/
+- /de/doc/out-of-memory/
+- /de/doc/OutOfmemory/
+- /de/wiki/OutOfmemory/
 ref: 168
 title: Kein Speicher mehr vorhanden
+translated: 'yes'
 ---
 
 VMs (especially templates) use pre-allocated space. The default private storage max size is 2 GB, but it's very easy to increase as needed. If the disk is completely full, you will get an `Out of disk space` error that may crash your system because Dom0 does not have enough disk space to work. So it's good practice to regularly check disk space usage with the command `df -h` in dom0 terminal.

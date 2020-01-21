@@ -1,15 +1,16 @@
 ---
 lang: de
 layout: intro
-permalink: /intro/
+permalink: /de/intro/
 redirect_from:
-- /tour/
-- /en/tour/
-- "/tour/#what-is-qubes-os"
-- /about/
-- /en/about/
+- /de/tour/
+- /de/tour/
+- /de/tour/#what-is-qubes-os
+- /de/about/
+- /de/about/
 ref: 20
 title: An Introduction to Qubes OS
+translated: 'yes'
 ---
 
 What is Qubes OS?
@@ -18,11 +19,11 @@ What is Qubes OS?
   <div class="row">
       <div class="col-lg-3 col-md-3 text-left">
           <p>Qubes OS is a free and open-source security-oriented operating system meant for single-user desktop computing.</p> 
-          <p>Qubes OS leverages <a href="https://wiki.xen.org/wiki/Xen_Project_Software_Overview">xen-based virtualization</a> to allow for the creation and management of isolated virtual machines called <a href="/doc/glossary#qube">qubes</a>. 
-          Qubes, which are also referred to as <a href="/doc/glossary#domain">domains</a> or compartments, have specific :</p>
+          <p>Qubes OS leverages <a href="https://wiki.xen.org/wiki/Xen_Project_Software_Overview">xen-based virtualization</a> to allow for the creation and management of isolated virtual machines called <a href="/de/doc/glossary#qube">qubes</a>. 
+          Qubes, which are also referred to as <a href="/de/doc/glossary#domain">domains</a> or compartments, have specific :</p>
           <ul>
-            <li><b>Purposes</b> : with a predefined set of one or many isolated applications, for personal or professional projects, to manage the <a href="/doc/networking/">network stack</a>, <a href="/doc/firewall/">the firewall</a>, or to fulfill other user-defined purposes.</li>
-            <li><b>Natures</b> : <a href="/doc/standalone-and-hvm/">full-fledged</a> or <a href="/getting-started/#appvms-qubes-and-templatevms">stripped-down</a> virtual machines which are based on popular operating systems such as <a href="/doc/templates/fedora">Fedora</a>, <a href="/doc/templates/debian">Debian</a> or <a href="/doc/windows/">Windows</a>.</li>
+            <li><b>Purposes</b> : with a predefined set of one or many isolated applications, for personal or professional projects, to manage the <a href="/de/doc/networking/">network stack</a>, <a href="/de/doc/firewall/">the firewall</a>, or to fulfill other user-defined purposes.</li>
+            <li><b>Natures</b> : <a href="/de/doc/standalone-and-hvm/">full-fledged</a> or <a href="/de/getting-started/#appvms-qubes-and-templatevms">stripped-down</a> virtual machines which are based on popular operating systems such as <a href="/de/doc/templates/fedora">Fedora</a>, <a href="/de/doc/templates/debian">Debian</a> or <a href="/de/doc/windows/">Windows</a>.</li>
             <li><b>Levels of trust</b> : from complete to non-existent. All windows are displayed in a unified desktop environment with <a href="https://www.qubes-os.org/getting-started/">unforgeable colored window borders</a> so different security levels are easily identifiable.</li>
           </ul>
       </div>
@@ -34,7 +35,7 @@ What is Qubes OS?
 
 <div class="alert alert-info" role="alert">
     <i class="fa fa-question-circle"></i>
-    <b>Note : </b> Head over to the <a href="/doc/glossary/">glossary</a> or the <a href="/faq">FAQ</a> for more information.  
+    <b>Note : </b> Head over to the <a href="/de/doc/glossary/">glossary</a> or the <a href="/de/faq">FAQ</a> for more information.  
 </div>
 
 <h2>Features</h2>
@@ -42,15 +43,15 @@ What is Qubes OS?
   <div class="row more-bottom">
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Strong isolation</h3>
-      <p>Isolate software as if they were installed on separate physical machines using <a href="/doc/glossary/#pv">PV</a> or <a href="/doc/glossary/#hvm">HVM</a> virtualization techniques</p>
+      <p>Isolate software as if they were installed on separate physical machines using <a href="/de/doc/glossary/#pv">PV</a> or <a href="/de/doc/glossary/#hvm">HVM</a> virtualization techniques</p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Template system</h3>
-      <p> Allow qubes called <a href="/getting-started/#appvms-qubes-and-templatevms">AppVMs</a> to share a root file system without sacrificing security using the innovative <a href="/doc/templates/">Template system</a></p>
+      <p> Allow qubes called <a href="/de/getting-started/#appvms-qubes-and-templatevms">AppVMs</a> to share a root file system without sacrificing security using the innovative <a href="/de/doc/templates/">Template system</a></p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Multiple operating systems</h3>
-      <p> Use multiple operating systems at the same time, including <a href="/doc/templates/fedora">Fedora</a>, <a href="/doc/templates/debian">Debian</a>, or <a href="/doc/windows/">Windows</a></p>
+      <p> Use multiple operating systems at the same time, including <a href="/de/doc/templates/fedora">Fedora</a>, <a href="/de/doc/templates/debian">Debian</a>, or <a href="/de/doc/windows/">Windows</a></p>
     </div>
   </div>
 
@@ -58,15 +59,15 @@ What is Qubes OS?
   <div class="row more-bottom">
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Disposable VMs</h3>
-      <p>Create <a href="/doc/disposablevm/">disposable VMs</a> which are spawned quickly and destroyed when closed</p>
+      <p>Create <a href="/de/doc/disposablevm/">disposable VMs</a> which are spawned quickly and destroyed when closed</p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Whonix integration</h3>
-      <p> Run <a href="https://www.torproject.org/">Tor</a> securely system-wide using <a href="/doc/whonix/">Whonix with Qubes</a></p>
+      <p> Run <a href="https://www.torproject.org/">Tor</a> securely system-wide using <a href="/de/doc/whonix/">Whonix with Qubes</a></p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Controller isolation</h3>
-      <p>Secure <a href="/doc/device-handling/">device handling</a> through isolation of network cards and USB controllers</p>
+      <p>Secure <a href="/de/doc/device-handling/">device handling</a> through isolation of network cards and USB controllers</p>
     </div>
   </div>
 
@@ -74,15 +75,15 @@ What is Qubes OS?
   <div class="row more-bottom">
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Split GPG</h3>
-      <p>Utilize <a href="/doc/split-gpg/">Split GPG</a> to store private GPG keys in an AppVM</p>
+      <p>Utilize <a href="/de/doc/split-gpg/">Split GPG</a> to store private GPG keys in an AppVM</p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>U2F proxy</h3>
-      <p>Operate <a href="/doc/u2f-proxy/">Qubes U2F proxy</a> to use two-factor authentication</p>
+      <p>Operate <a href="/de/doc/u2f-proxy/">Qubes U2F proxy</a> to use two-factor authentication</p>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Open-source</h3>
-      <p>Users are free to use, copy and modify Qubes OS and <a href="/doc/contributing/">are encouraged to do so!</a></p>
+      <p>Users are free to use, copy and modify Qubes OS and <a href="/de/doc/contributing/">are encouraged to do so!</a></p>
     </div>
   </div>
 
@@ -139,21 +140,21 @@ Why Qubes OS ?
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Video Tours</h3>
       <p>Want to see Qubes OS in action? Sit back and watch a guided tour!</p>
-      <a href="/video-tours/" class="btn btn-primary">
+      <a href="/de/video-tours/" class="btn btn-primary">
         <i class="fa fa-play-circle"></i> Video Tours
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Screenshots</h3>
       <p>See what using Qubes actually looks like with these screenshots of various applications running in Qubes.</p>
-      <a href="/screenshots/" class="btn btn-primary">
+      <a href="/de/screenshots/" class="btn btn-primary">
         <i class="fa fa-picture-o"></i> Screenshots
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-xs-12">
       <h3>Getting Started</h3>
       <p>Ready to get started with Qubes? Here's what you need to know after installing.</p>
-      <a href="/getting-started/" class="btn btn-primary">
+      <a href="/de/getting-started/" class="btn btn-primary">
         <i class="fa fa-cubes"></i> Getting Started
       </a>
     </div>
@@ -173,24 +174,24 @@ technical details have been omitted here for the sake of presentation.
  * Ready to give Qubes a try? Head on over to the [downloads] page or the [installation guide].
 
 
-[disposable qube]: /doc/disposablevm/
-[networking]: /doc/networking/
-[firewalls]: /doc/firewall/
-[USB]: /doc/usb/
-[Datei]: /doc/copying-files/
-[clipboard]: /doc/copy-paste/
-[Vorlage]: /doc/templates/
-[Qubes-Whonix]: /doc/whonix/
+[disposable qube]: /de/doc/disposablevm/
+[networking]: /de/doc/networking/
+[firewalls]: /de/doc/firewall/
+[USB]: /de/doc/usb/
+[Datei]: /de/doc/copying-files/
+[clipboard]: /de/doc/copy-paste/
+[Vorlage]: /de/doc/templates/
+[Qubes-Whonix]: /de/doc/whonix/
 [Whonix]: https://www.whonix.org/
 [Tor]: https://www.torproject.org/
-[Anti Evil Maid]: /doc/anti-evil-maid/
+[Anti Evil Maid]: /de/doc/anti-evil-maid/
 [Tails]: https://tails.boum.org/
 [Xen]: https://www.xenproject.org
 [paper-compart]: https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf
-[doc]: /doc/
-[user-faq]: /faq/#users
-[system-doc]: /doc/system-doc/
-[devel-faq]: /faq/#developers
-[downloads]: /downloads/
-[getting started]: /getting-started/
-[installation guide]: /doc/installation-guide/
+[doc]: /de/doc/
+[user-faq]: /de/faq/#users
+[system-doc]: /de/doc/system-doc/
+[devel-faq]: /de/faq/#developers
+[downloads]: /de/downloads/
+[getting started]: /de/getting-started/
+[installation guide]: /de/doc/installation-guide/

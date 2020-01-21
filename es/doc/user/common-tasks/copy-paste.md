@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/copy-paste/
+permalink: /es/doc/copy-paste/
 redirect_from:
-- /en/doc/copy-paste/
-- /doc/CopyPaste/
-- /wiki/CopyPaste/
+- /es/doc/copy-paste/
+- /es/doc/CopyPaste/
+- /es/wiki/CopyPaste/
 ref: 74
 title: Copy and Paste
+translated: 'yes'
 ---
 
 Copy and Paste between domains
@@ -49,7 +50,7 @@ Y [este mensaje](https://groups.google.com/group/qubes-devel/msg/48b4b532cee06e0
 Copy/Paste between dom0 and other domains
 -----------------------------------------
 
-See ["Copying from (and to) dom0"](/doc/copy-from-dom0/).
+See ["Copying from (and to) dom0"](/es/doc/copy-from-dom0/).
 
 Clipboard automatic policy enforcement
 --------------------------------------
@@ -80,4 +81,4 @@ Los atajos de teclado de copiado/pegado pueden configurarse en:
 Las VMs han de reiniciarse para que los cambios en `/etc/qubes/guid.conf` tengan efecto.
 
 
-[RPC policy]: /doc/rpc-policy/
+[RPC policy]: /es/doc/rpc-policy/

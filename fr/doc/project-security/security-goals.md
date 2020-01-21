@@ -1,14 +1,15 @@
 ---
 lang: fr
 layout: doc
-permalink: /security/goals/
+permalink: /fr/security/goals/
 redirect_from:
-- /doc/security-goals/
-- /en/doc/security-goals/
-- /doc/SecurityGoals/
-- /wiki/SecurityGoals/
+- /fr/doc/security-goals/
+- /fr/doc/security-goals/
+- /fr/doc/SecurityGoals/
+- /fr/wiki/SecurityGoals/
 ref: 155
 title: Security Goals
+translated: 'yes'
 ---
 
 Qubes Security Goals

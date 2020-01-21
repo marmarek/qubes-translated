@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: predeterminada
-permalink: /terms/
+permalink: /es/terms/
 redirect_from:
-- /en/terms/
-- /doc/terms/
-- /wiki/terms/
+- /es/terms/
+- /es/doc/terms/
+- /es/wiki/terms/
 ref: 3
 title: Condiciones de Uso
+translated: 'yes'
 ---
 
 Terms of Use

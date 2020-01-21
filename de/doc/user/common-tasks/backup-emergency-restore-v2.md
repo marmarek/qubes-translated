@@ -1,12 +1,13 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/backup-emergency-restore-v2/
+permalink: /de/doc/backup-emergency-restore-v2/
 redirect_from:
-- /en/doc/backup-emergency-restore-v2/
-- /doc/BackupEmergencyRestoreV2/
+- /de/doc/backup-emergency-restore-v2/
+- /de/doc/BackupEmergencyRestoreV2/
 ref: 80
 title: Emergency Backup Recovery (v2)
+translated: 'yes'
 ---
 
 Emergency Backup Recovery without Qubes (v2)

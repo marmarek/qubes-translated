@@ -1,9 +1,10 @@
 ---
 lang: fr
 layout: doc
-permalink: /doc/newer-hardware-troubleshooting/
+permalink: /fr/doc/newer-hardware-troubleshooting/
 ref: 89
 title: Troubleshooting newer hardware
+translated: 'yes'
 ---
 
 Troubleshooting newer hardware
@@ -27,4 +28,4 @@ If the start of `uname -r` matches one of the versions printed by `rpm`, then yo
 If `uname -r` reports a higher version number, then you've successfully booted with the kernel shipped by `kernel-latest`.
 
 
-[dom0-kernel-upgrade]: /doc/software-update-dom0/#kernel-upgrade
+[dom0-kernel-upgrade]: /fr/doc/software-update-dom0/#kernel-upgrade

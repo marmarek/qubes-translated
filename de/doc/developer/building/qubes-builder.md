@@ -1,16 +1,17 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/qubes-builder/
+permalink: /de/doc/qubes-builder/
 redirect_from:
-- /en/doc/qubes-builder/
-- /doc/QubesBuilder/
-- /wiki/QubesBuilder/
+- /de/doc/qubes-builder/
+- /de/doc/QubesBuilder/
+- /de/wiki/QubesBuilder/
 ref: 123
 title: Qubes Builder
+translated: 'yes'
 ---
 
-**Notiz: Bitte sehen sie [ISO building instructions](/doc/qubes-iso-building/) um einen Ueberblick zu bekommen, wie Sie das Buildsystem nutzen koennen.**
+**Notiz: Bitte sehen sie [ISO building instructions](/de/doc/qubes-iso-building/) um einen Ueberblick zu bekommen, wie Sie das Buildsystem nutzen koennen.**
 
 Qubes von Null aus bauen
 ===========================
@@ -175,7 +176,7 @@ This is because Qubes does not provide official packages for Ubuntu templates.
 Code verification keys management
 ---------------------------------
 
-[QubesBuilder](/doc/qubes-builder/) by default verifies signed tags on every downloaded code.
+[QubesBuilder](/de/doc/qubes-builder/) by default verifies signed tags on every downloaded code.
 Public keys used for that are stored in `keyrings/git`.
 By default Qubes developers' keys are imported automatically, but if you need some additional keys (for example your own), you can add them using:
 
@@ -190,4 +191,4 @@ If you are the owner of Master key and want to revoke such signature, use the `r
 Further information
 -------------------
 
-For advanced [QubesBuilder](/doc/qubes-builder/) use, and preparing sources, take a look at [QubesBuilderDetails](/doc/qubes-builder-details/) page, or [QubesBuilder's doc directory](https://github.com/marmarek/qubes-builder/tree/master/doc).
+For advanced [QubesBuilder](/de/doc/qubes-builder/) use, and preparing sources, take a look at [QubesBuilderDetails](/de/doc/qubes-builder-details/) page, or [QubesBuilder's doc directory](https://github.com/marmarek/qubes-builder/tree/master/doc).

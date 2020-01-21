@@ -1,14 +1,15 @@
 ---
 lang: fr
 layout: valeur par défaut
-permalink: /research/
+permalink: /fr/research/
 redirect_from:
-- /doc/qubes-research/
-- /en/doc/qubes-research/
-- /doc/QubesResearch/
-- /wiki/QubesResearch/
+- /fr/doc/qubes-research/
+- /fr/doc/qubes-research/
+- /fr/doc/QubesResearch/
+- /fr/wiki/QubesResearch/
 ref: 84
 title: Recherche
+translated: 'yes'
 ---
 
 Here are links to various research papers, projects, and blog posts that relate

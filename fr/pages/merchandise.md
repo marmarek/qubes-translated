@@ -1,9 +1,10 @@
 ---
 lang: fr
 layout: valeur par défaut
-permalink: /merchandise/
+permalink: /fr/merchandise/
 ref: 5
 title: Merchandise
+translated: 'yes'
 ---
 
 # Merchandise
@@ -23,4 +24,4 @@ Likewise, we have not vetted the organizations or individuals who have undertake
 
 [CypherMarket]: https://cyphermarket.com/product-tag/qubes/
 [Redbubble]: https://www.redbubble.com/people/verifiablelist/works/41211269-qubes-os
-[donated]: /donate/
+[donated]: /fr/donate/

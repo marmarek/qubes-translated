@@ -1,12 +1,13 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/automated-tests/
+permalink: /de/doc/automated-tests/
 redirect_from:
-- /en/doc/automated-tests/
-- /doc/AutomatedTests/
+- /de/doc/automated-tests/
+- /de/doc/AutomatedTests/
 ref: 136
 title: Automated Tests
+translated: 'yes'
 ---
 
 Automated Tests

@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/networking/
+permalink: /es/doc/networking/
 redirect_from:
-- /doc/qubes-net/
-- /en/doc/qubes-net/
-- /doc/QubesNet/
-- /wiki/QubesNet/
+- /es/doc/qubes-net/
+- /es/doc/qubes-net/
+- /es/doc/QubesNet/
+- /es/wiki/QubesNet/
 ref: 115
 title: Red
+translated: 'yes'
 ---
 
 VM network in Qubes

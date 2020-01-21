@@ -1,11 +1,12 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/reinstall-template/
+permalink: /es/doc/reinstall-template/
 redirect_from:
-- /doc/whonix/reinstall/
+- /es/doc/whonix/reinstall/
 ref: 52
 title: How to Reinstall a TemplateVM
+translated: 'yes'
 ---
 
 How to Reinstall a TemplateVM
@@ -83,4 +84,4 @@ If you want to reinstall more than one TemplateVM, repeat these instructions for
    command `qvm-remove <vm-name>` in dom0.
 
 
-[TemplateVM]: /doc/templates/
+[TemplateVM]: /es/doc/templates/

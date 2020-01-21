@@ -1,13 +1,14 @@
 ---
 lang: es
 layout: predeterminada
-permalink: /screenshots/
+permalink: /es/screenshots/
 redirect_from:
-- /media/
-- /doc/QubesScreenshots/
-- /wiki/QubesScreenshots/
+- /es/media/
+- /es/doc/QubesScreenshots/
+- /es/wiki/QubesScreenshots/
 ref: 15
 title: Screenshots
+translated: 'yes'
 ---
 
 Select Qubes OS Screenshots

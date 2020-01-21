@@ -1,10 +1,12 @@
 ---
 lang: es
 layout: doc
-permalink: /security/canaries/template/
-redirect_from: /doc/canaries/template/
+permalink: /es/security/canaries/template/
+redirect_from:
+- /es/doc/canaries/template/
 ref: 160
 title: Canary Template
+translated: 'yes'
 ---
 
 Canary Template

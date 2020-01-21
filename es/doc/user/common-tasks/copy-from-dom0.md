@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/copy-from-dom0/
+permalink: /es/doc/copy-from-dom0/
 redirect_from:
-- /doc/copy-to-dom0/
-- /en/doc/copy-to-dom0/
-- /doc/CopyToDomZero/
-- /wiki/CopyToDomZero/
+- /es/doc/copy-to-dom0/
+- /es/doc/copy-to-dom0/
+- /es/doc/CopyToDomZero/
+- /es/wiki/CopyToDomZero/
 ref: 66
 title: Copying from (and to) dom0
+translated: 'yes'
 ---
 
 Copying from (and to) dom0
@@ -55,7 +56,7 @@ Copying **to** dom0
 -------------------
 
 Copying anything into dom0 is not advised, since doing so can compromise the security of your Qubes system.
-For this reason, there is no simple means of copying anything into dom0, unlike [copying from dom0](#copying-from-dom0) and [copying files between VMs](/doc/copying-files/).
+For this reason, there is no simple means of copying anything into dom0, unlike [copying from dom0](#copying-from-dom0) and [copying files between VMs](/es/doc/copying-files/).
 
 There should normally be few reasons for the user to want to copy anything from VMs to dom0, as dom0 only acts as a "thin trusted terminal", and no user applications run there.
 One possible use-case for this is if we want to use a desktop wallpaper in dom0 we have located in one of our AppVMs (e.g. in the 'personal' AppVM where we got the wallpaper from our camera or downloaded it from the Internet).

@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/config-files/
+permalink: /es/doc/config-files/
 redirect_from:
-- /en/doc/config-files/
-- /doc/ConfigFiles/
-- /doc/UserDoc/ConfigFiles/
-- /wiki/UserDoc/ConfigFiles/
+- /es/doc/config-files/
+- /es/doc/ConfigFiles/
+- /es/doc/UserDoc/ConfigFiles/
+- /es/wiki/UserDoc/ConfigFiles/
 ref: 100
 title: Config Files
+translated: 'yes'
 ---
 
 Configuration Files
@@ -76,7 +77,7 @@ The scripts here all run as root.
 
 Observe que los scripts tienen que ser ejecutables (chmod +x) para que se usen.
 
-Also, take a look at [bind-dirs](/doc/bind-dirs) for instructions on how to easily modify arbitrary system files in an AppVM and have those changes persist.
+Also, take a look at [bind-dirs](/es/doc/bind-dirs) for instructions on how to easily modify arbitrary system files in an AppVM and have those changes persist.
 
 
 GUI and audio configuration in dom0

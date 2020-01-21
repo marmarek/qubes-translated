@@ -1,13 +1,14 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/qfilecopy/
+permalink: /de/doc/qfilecopy/
 redirect_from:
-- /en/doc/qfilecopy/
-- /doc/Qfilecopy/
-- /wiki/Qfilecopy/
+- /de/doc/qfilecopy/
+- /de/doc/Qfilecopy/
+- /de/wiki/Qfilecopy/
 ref: 146
 title: Qfilecopy
+translated: 'yes'
 ---
 
 InterVM file copy design

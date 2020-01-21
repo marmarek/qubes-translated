@@ -1,14 +1,15 @@
 ---
 lang: es
 layout: doc
-permalink: /doc/templates/
+permalink: /es/doc/templates/
 redirect_from:
-- /doc/template/
-- /en/doc/templates/
-- /doc/Templates/
-- /wiki/Templates/
+- /es/doc/template/
+- /es/doc/templates/
+- /es/doc/Templates/
+- /es/wiki/Templates/
 ref: 53
 title: TemplateVMs
+translated: 'yes'
 ---
 
 # TemplateVMs
@@ -172,7 +173,7 @@ There are several ways to deal with this problem:
 
  * Only install packages from trusted sources -- e.g. from the pre-configured Fedora repositories.
    All those packages are signed by Fedora, and we expect that at least the package's installation scripts are not malicious.
-   This is enforced by default (at the [firewall VM level](/doc/firewall/)), by not allowing any networking connectivity in the default template VM, except for access to the Fedora repos.
+   This is enforced by default (at the [firewall VM level](/es/doc/firewall/)), by not allowing any networking connectivity in the default template VM, except for access to the Fedora repos.
 
  * Use *standalone VMs* (see below) for installation of untrusted software packages.
 
@@ -185,7 +186,7 @@ Some popular questions:
 As far as the template's compromise is concerned, it doesn't really matter whether `/usr/bin/firefox` is buggy and can be exploited, or not.
 What matters is whether its *installation* scripts (such as %post in the rpm.spec) are benign or not.
 Template VM should be used only for installation of packages, and nothing more, so it should never get a chance to actually run `/usr/bin/firefox` and get infected from it, in case it was compromised.
-Also, some of your more trusted AppVMs would have networking restrictions enforced by the [firewall VM](/doc/firewall/), and again they should not fear this proverbial `/usr/bin/firefox` being potentially buggy and easy to compromise.
+Also, some of your more trusted AppVMs would have networking restrictions enforced by the [firewall VM](/es/doc/firewall/), and again they should not fear this proverbial `/usr/bin/firefox` being potentially buggy and easy to compromise.
 
 > But why trust Fedora?
 
@@ -240,27 +241,27 @@ Note the word "clean" means in this context: the same as their template filesyst
    Take a look at the [Qubes Builder] documentation for instructions on how to compile them.
 
 
-[Iniciar con Martus]: /getting-started/
-[TemplateVMs]: /doc/glossary/#templatevm
-[TemplateBasedVMs]: /doc/glossary/#templatebasedvm
-[Fedora]: /doc/templates/fedora/
-[Minimal]: /doc/templates/minimal/
-[Xfce]: /doc/templates/fedora-xfce
-[Debian]: /doc/templates/debian/
-[Whonix]: /doc/templates/whonix/
-[Ubuntu]: /doc/templates/ubuntu/
-[Arch Linux]: /doc/templates/archlinux/
-[CentOS]: /doc/templates/centos/
-[Qubes Builder]: /doc/qubes-builder/
-[TemplateVM Implementation]: /doc/template-implementation/
-[How to Remove VMs Manually]: /doc/remove-vm-manually/
-[DisposableVM Template]: /doc/glossary/#disposablevm-template
-[Updating Qubes OS]: /doc/updating-qubes-os/
-[Disk Trim]: /doc/disk-trim
+[Iniciar con Martus]: /es/getting-started/
+[TemplateVMs]: /es/doc/glossary/#templatevm
+[TemplateBasedVMs]: /es/doc/glossary/#templatebasedvm
+[Fedora]: /es/doc/templates/fedora/
+[Minimal]: /es/doc/templates/minimal/
+[Xfce]: /es/doc/templates/fedora-xfce
+[Debian]: /es/doc/templates/debian/
+[Whonix]: /es/doc/templates/whonix/
+[Ubuntu]: /es/doc/templates/ubuntu/
+[Arch Linux]: /es/doc/templates/archlinux/
+[CentOS]: /es/doc/templates/centos/
+[Qubes Builder]: /es/doc/qubes-builder/
+[TemplateVM Implementation]: /es/doc/template-implementation/
+[How to Remove VMs Manually]: /es/doc/remove-vm-manually/
+[DisposableVM Template]: /es/doc/glossary/#disposablevm-template
+[Updating Qubes OS]: /es/doc/updating-qubes-os/
+[Disk Trim]: /es/doc/disk-trim
 [Inheritance and Persistence]: #inheritance-and-persistence
-[supported]: /doc/supported-versions/
+[supported]: /es/doc/supported-versions/
 [Update the TemplateVM]: #updating
 [switch]: #switching
 [uninstall the old TemplateVM]: #uninstalling
-[Updating software in TemplateVMs]: /doc/software-update-domu/#updating-software-in-templatevms
-[How to Reinstall a TemplateVM]: /doc/reinstall-template/
+[Updating software in TemplateVMs]: /es/doc/software-update-domu/#updating-software-in-templatevms
+[How to Reinstall a TemplateVM]: /es/doc/reinstall-template/

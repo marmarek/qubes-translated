@@ -1,14 +1,15 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/templates/ubuntu/
+permalink: /de/doc/templates/ubuntu/
 redirect_from:
-- /doc/ubuntu/
-- /en/doc/templates/ubuntu/
-- /doc/Templates/Ubuntu/
-- /wiki/Templates/Ubuntu/
+- /de/doc/ubuntu/
+- /de/doc/templates/ubuntu/
+- /de/doc/Templates/Ubuntu/
+- /de/wiki/Templates/Ubuntu/
 ref: 187
 title: Ubuntu Template
+translated: 'yes'
 ---
 
 Ubuntu template(s)
@@ -21,7 +22,7 @@ The redistribution is not allowed by their [Intellectual property rights policy]
 Install
 -------
 
-Templates can be built using [Qubes Builder](/doc/qubes-builder/).
+Templates can be built using [Qubes Builder](/de/doc/qubes-builder/).
 You can also access its documentation in the [source code repository](https://github.com/QubesOS/qubes-builder/blob/master/README.md).
 
 To quickly prepare the builder configuration, you can use the `setup` script available in the repository - it will interactively ask you which templates you want to build.  

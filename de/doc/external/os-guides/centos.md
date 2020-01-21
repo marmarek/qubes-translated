@@ -1,16 +1,17 @@
 ---
 lang: de
 layout: doc
-permalink: /doc/templates/centos/
+permalink: /de/doc/templates/centos/
 ref: 183
 title: CentOS Template
+translated: 'yes'
 ---
 
 # CentOS Template
 
 If you would like to use a stable, predictable, manageable and reproducible distribution in your AppVMs, you can install the CentOS template, provided by Qubes in ready to use binary package.
 
-For the minimal version, please see [Minimal TemplateVMs](/doc/templates/minimal/)
+For the minimal version, please see [Minimal TemplateVMs](/de/doc/templates/minimal/)
 
 
 ## Installation
@@ -23,14 +24,14 @@ To switch, reinstall and uninstall a CentOS TemplateVM that is already installed
 
 #### After Installing
 
-After a fresh install, we recommend to [Update the TemplateVM](/doc/software-update-vm/).
+After a fresh install, we recommend to [Update the TemplateVM](/de/doc/software-update-vm/).
 
 ## Want to contribute?
 
-*   [How can I contribute to the Qubes Project?](/doc/contributing/)
+*   [How can I contribute to the Qubes Project?](/de/doc/contributing/)
 
-*   [Guidelines for Documentation Contributors](/doc/doc-guidelines/)
+*   [Guidelines for Documentation Contributors](/de/doc/doc-guidelines/)
 
-[switch]: /doc/templates/#switching
-[reinstall]: /doc/reinstall-template/
-[uninstall]: /doc/templates/#uninstalling
+[switch]: /de/doc/templates/#switching
+[reinstall]: /de/doc/reinstall-template/
+[uninstall]: /de/doc/templates/#uninstalling
